@@ -1,0 +1,493 @@
+{
+  "groups": [
+    {
+      "unit_id": "cnpc", "name": "中国石油", "aliases": ["CNPC", "中国石油天然气集团"], "sector": "油气", "priority": "必投", "source_ids": ["cnpc-careers"],
+      "members": [
+        {"unit_id": "cnpc-tarim", "name": "塔里木油田", "priority": "必投"},
+        {"unit_id": "cnpc-southwest", "name": "西南油气田", "priority": "必投"},
+        {"unit_id": "cnpc-changqing", "name": "长庆油田", "priority": "重点冲"},
+        {"unit_id": "cnpc-xinjiang", "name": "新疆油田", "priority": "重点冲"},
+        {"unit_id": "cnpc-daqing", "name": "大庆油田", "priority": "重点冲"},
+        {"unit_id": "cnpc-liaohe", "name": "辽河油田"},
+        {"unit_id": "cnpc-tuha", "name": "吐哈油田"},
+        {"unit_id": "cnpc-qinghai", "name": "青海油田"},
+        {"unit_id": "cnpc-huabei", "name": "华北油田"},
+        {"unit_id": "cnpc-jidong", "name": "冀东油田"},
+        {"unit_id": "cnpc-jilin", "name": "吉林油田"},
+        {"unit_id": "cnpc-bgp", "name": "东方地球物理公司", "aliases": ["东方物探", "BGP"], "priority": "专业匹配较弱"},
+        {"unit_id": "cnpc-logging", "name": "中国石油集团测井有限公司", "aliases": ["测井公司"], "priority": "专业匹配较弱"},
+        {"unit_id": "cnpc-rip", "name": "中国石油勘探开发研究院", "aliases": ["勘探开发研究院"], "priority": "必投"}
+      ]
+    },
+    {
+      "unit_id": "sinopec", "name": "中国石化", "aliases": ["Sinopec", "中国石油化工集团"], "sector": "油气", "priority": "必投", "source_ids": ["sinopec-careers"],
+      "members": [
+        {"unit_id": "sinopec-northwest", "name": "西北油田分公司", "priority": "必投"},
+        {"unit_id": "sinopec-shengli", "name": "胜利油田", "priority": "重点冲"},
+        {"unit_id": "sinopec-southwest", "name": "西南油气分公司", "priority": "重点冲"},
+        {"unit_id": "sinopec-exploration", "name": "中国石化勘探分公司", "aliases": ["勘探分公司"], "priority": "重点冲"},
+        {"unit_id": "sinopec-huabei", "name": "华北石油局"},
+        {"unit_id": "sinopec-zhongyuan", "name": "中原油田"},
+        {"unit_id": "sinopec-jianghan", "name": "江汉油田"},
+        {"unit_id": "sinopec-jiangsu", "name": "江苏油田"},
+        {"unit_id": "sinopec-henan", "name": "河南油田"},
+        {"unit_id": "sinopec-east", "name": "华东石油局"},
+        {"unit_id": "sinopec-geophysics", "name": "石油工程地球物理公司", "priority": "专业匹配较弱"},
+        {"unit_id": "sinopec-pepris", "name": "中国石化石油勘探开发研究院", "priority": "必投"}
+      ]
+    },
+    {
+      "unit_id": "cnooc", "name": "中国海油", "aliases": ["CNOOC", "中国海洋石油集团"], "sector": "油气", "priority": "必投", "source_ids": ["cnooc-careers", "cnooc-iguopin"],
+      "members": [
+        {"unit_id": "cnooc-research", "name": "中海油研究总院", "priority": "必投"},
+        {"unit_id": "cnooc-shenzhen", "name": "中海石油中国有限公司深圳分公司", "aliases": ["中海油深圳分公司"], "priority": "必投"},
+        {"unit_id": "cnooc-tianjin", "name": "中海石油中国有限公司天津分公司", "aliases": ["中海油天津分公司"], "priority": "必投"},
+        {"unit_id": "cnooc-zhanjiang", "name": "中海石油中国有限公司湛江分公司", "aliases": ["中海油湛江分公司"], "priority": "必投"},
+        {"unit_id": "cnooc-shanghai", "name": "中海石油中国有限公司上海分公司", "aliases": ["中海油上海分公司"], "priority": "重点冲"},
+        {"unit_id": "cnooc-cosl", "name": "中海油田服务股份有限公司", "aliases": ["中海油服", "COSL"], "priority": "专业匹配较弱"},
+        {"unit_id": "cnooc-development", "name": "海油发展"},
+        {"unit_id": "cnooc-gas-power", "name": "中海油气电集团", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "chn-energy", "name": "国家能源集团", "aliases": ["国家能源投资集团"], "sector": "煤炭能源", "priority": "重点冲", "source_ids": ["chn-energy-careers"],
+      "members": [
+        {"unit_id": "chn-shenhua", "name": "中国神华能源股份有限公司", "aliases": ["中国神华"], "priority": "重点冲"},
+        {"unit_id": "chn-shendong", "name": "神东煤炭集团", "priority": "重点冲"},
+        {"unit_id": "chn-zhunneng", "name": "准能集团", "priority": "重点冲"},
+        {"unit_id": "chn-ningxia", "name": "宁夏煤业"},
+        {"unit_id": "chn-xinjiang", "name": "国家能源集团新疆能源公司", "aliases": ["新疆能源公司"]},
+        {"unit_id": "chn-wuhai", "name": "乌海能源"},
+        {"unit_id": "chn-pingzhuang", "name": "平庄煤业"},
+        {"unit_id": "chn-baotou", "name": "包头能源"},
+        {"unit_id": "chn-tech-econ", "name": "国家能源集团技术经济研究院"},
+        {"unit_id": "chn-science", "name": "国家能源集团科学技术研究院"},
+        {"unit_id": "chn-longyuan", "name": "龙源电力", "priority": "专业匹配较弱"},
+        {"unit_id": "chn-guodian", "name": "国电电力", "priority": "专业匹配较弱"},
+        {"unit_id": "chn-core-mines", "name": "国家能源集团核心煤矿和矿井地质单位"}
+      ]
+    },
+    {
+      "unit_id": "chinacoal", "name": "中国中煤能源集团", "aliases": ["中国中煤"], "sector": "煤炭能源", "priority": "重点冲", "source_ids": ["chinacoal-careers", "chinacoal-notices"],
+      "members": [
+        {"unit_id": "chinacoal-listed", "name": "中煤能源股份有限公司"},
+        {"unit_id": "chinacoal-pingshuo", "name": "中煤平朔集团", "priority": "重点冲"},
+        {"unit_id": "chinacoal-huajin", "name": "中煤华晋集团"},
+        {"unit_id": "chinacoal-xinji", "name": "中煤新集能源", "priority": "重点冲"},
+        {"unit_id": "chinacoal-northwest", "name": "中煤西北能源"},
+        {"unit_id": "chinacoal-xinjiang", "name": "中国中煤新疆能源单位"},
+        {"unit_id": "chinacoal-geology", "name": "中国中煤地质勘查相关单位"},
+        {"unit_id": "chinacoal-construction", "name": "中国中煤建设设计工程单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "ccgc", "name": "中国煤炭地质总局", "sector": "地质勘查", "priority": "必投", "source_ids": ["ccgc-careers", "ccgc-research"],
+      "members": [
+        {"unit_id": "ccgc-research-institute", "name": "中国煤炭地质总局勘查研究总院", "priority": "必投", "source_ids": ["ccgc-research"]},
+        {"unit_id": "ccgc-geology", "name": "中煤地质集团有限公司", "priority": "必投"},
+        {"unit_id": "ccgc-aerial", "name": "中国煤炭地质总局航测遥感局"},
+        {"unit_id": "ccgc-geophysics", "name": "中国煤炭地质总局物探测量队类单位"},
+        {"unit_id": "ccgc-hydro", "name": "中国煤炭地质总局水文地质局"},
+        {"unit_id": "ccgc-hydro-group", "name": "中煤水文局集团有限公司"},
+        {"unit_id": "ccgc-eco", "name": "中国煤炭地质总局生态环境类单位"},
+        {"unit_id": "ccgc-regional", "name": "中国煤炭地质总局区域地质局和勘查院"},
+        {"unit_id": "ccgc-jiangsu", "name": "江苏煤炭地质局"},
+        {"unit_id": "ccgc-second", "name": "中国煤炭地质总局第二勘探局"},
+        {"unit_id": "ccgc-field", "name": "中国煤炭地质总局基层勘查队和项目部"}
+      ]
+    },
+    {
+      "unit_id": "cmgb", "name": "中国冶金地质总局", "sector": "地质勘查", "priority": "必投", "source_ids": ["cmgb-careers"],
+      "members": [
+        {"unit_id": "cmgb-research", "name": "中国冶金地质总局直属科研院和地质研究院", "priority": "必投"},
+        {"unit_id": "cmgb-first", "name": "国冶一局集团", "priority": "必投", "source_ids": ["cmgb-first-careers"]},
+        {"unit_id": "cmgb-second", "name": "国冶二局集团", "priority": "必投"},
+        {"unit_id": "cmgb-third", "name": "国冶三局"},
+        {"unit_id": "cmgb-fourth", "name": "国冶四局"},
+        {"unit_id": "cmgb-fifth", "name": "国冶五局"},
+        {"unit_id": "cmgb-central-south", "name": "中国冶金地质总局中南局"},
+        {"unit_id": "cmgb-regional", "name": "中国冶金地质总局其他区域地质局"},
+        {"unit_id": "cmgb-eco", "name": "中国冶金地质总局生态修复和环境地质公司"},
+        {"unit_id": "cmgb-field", "name": "中国冶金地质总局基层勘查队和野外项目部"}
+      ]
+    },
+    {
+      "unit_id": "ccgmb", "name": "中化地质矿山总局", "sector": "地质勘查", "priority": "必投", "source_ids": ["ccgmb-careers"],
+      "members": [
+        {"unit_id": "ccgmb-research", "name": "中化地质矿山总局地质研究院", "priority": "必投", "source_ids": ["ccgmb-research"]},
+        {"unit_id": "ccgmb-mingda", "name": "中化明达控股集团", "priority": "重点冲"},
+        {"unit_id": "ccgmb-zhejiang", "name": "中化地质矿山总局浙江地质勘查院", "source_ids": ["ccgmb-zhejiang"]},
+        {"unit_id": "ccgmb-shaanxi", "name": "中化地质矿山总局陕西地质勘查院"},
+        {"unit_id": "ccgmb-hebei", "name": "中化地质矿山总局河北地质勘查院"},
+        {"unit_id": "ccgmb-shandong", "name": "中化地质矿山总局山东地质勘查院"},
+        {"unit_id": "ccgmb-henan", "name": "中化地质矿山总局河南地质勘查院"},
+        {"unit_id": "ccgmb-hubei", "name": "中化地质矿山总局湖北地质勘查院", "source_ids": ["ccgmb-hubei"]},
+        {"unit_id": "ccgmb-hunan", "name": "中化地质矿山总局湖南地质勘查院", "source_ids": ["ccgmb-hunan"]},
+        {"unit_id": "ccgmb-other", "name": "中化地质矿山总局其他区域地勘院"},
+        {"unit_id": "ccgmb-field", "name": "中化地质矿山总局基层项目部和野外勘查单位"}
+      ]
+    },
+    {
+      "unit_id": "minmetals", "name": "中国五矿", "sector": "有色矿业", "priority": "必投", "source_ids": ["minmetals-careers"],
+      "members": [
+        {"unit_id": "minmetals-resources", "name": "五矿资源", "priority": "必投"},
+        {"unit_id": "minmetals-mining", "name": "五矿矿业控股", "priority": "必投"},
+        {"unit_id": "minmetals-changsha", "name": "长沙矿山研究院", "priority": "必投"},
+        {"unit_id": "minmetals-enfi", "name": "中国恩菲"},
+        {"unit_id": "minmetals-mcc", "name": "中国五矿中冶地质矿业相关单位"},
+        {"unit_id": "minmetals-nonferrous", "name": "五矿有色金属相关单位", "source_ids": ["minmetals-nonferrous"]},
+        {"unit_id": "minmetals-trade", "name": "中国五矿贸易类子公司", "priority": "专业匹配较弱"},
+        {"unit_id": "minmetals-finance-property", "name": "中国五矿金融地产类子公司", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "china-gold", "name": "中国黄金集团", "sector": "黄金矿业", "priority": "必投", "source_ids": ["china-gold-careers", "china-gold-notices"],
+      "members": [
+        {"unit_id": "china-gold-geology", "name": "中国黄金集团地质有限公司", "priority": "必投"},
+        {"unit_id": "china-gold-hq", "name": "中国黄金集团总部"},
+        {"unit_id": "china-gold-management", "name": "中国黄金集团矿业管理平台"},
+        {"unit_id": "china-gold-zhongjin", "name": "中金黄金股份有限公司", "priority": "重点冲"},
+        {"unit_id": "china-gold-international", "name": "中国黄金国际"},
+        {"unit_id": "china-gold-overseas", "name": "中国黄金集团海外矿业平台"},
+        {"unit_id": "china-gold-regional", "name": "中国黄金集团区域黄金矿山公司"},
+        {"unit_id": "china-gold-downstream", "name": "中国黄金集团冶炼贸易销售单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "chinalco", "name": "中国铝业集团", "aliases": ["中铝集团"], "sector": "有色矿业", "priority": "重点冲", "source_ids": ["chinalco-careers", "chinalco-notices"],
+      "members": [
+        {"unit_id": "chinalco-mining", "name": "中铝矿业", "priority": "重点冲"},
+        {"unit_id": "chinalco-resources", "name": "中铝资源类单位", "priority": "重点冲"},
+        {"unit_id": "chinalco-listed-mines", "name": "中国铝业股份有限公司矿山板块"},
+        {"unit_id": "chinalco-international", "name": "中铝国际"},
+        {"unit_id": "chinalco-design", "name": "中国铝业集团设计研究院"},
+        {"unit_id": "chinalco-alumina", "name": "中国铝业集团区域氧化铝和冶炼企业", "priority": "专业匹配较弱"},
+        {"unit_id": "chinalco-commercial", "name": "中国铝业集团销售贸易金融单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "cnmc", "name": "中国有色矿业集团", "sector": "有色矿业", "priority": "重点冲", "source_ids": ["cnmc-careers"],
+      "members": [
+        {"unit_id": "cnmc-overseas", "name": "中国有色矿业海外矿山平台"},
+        {"unit_id": "cnmc-geology", "name": "中国有色地勘和资源开发类单位", "priority": "重点冲"},
+        {"unit_id": "cnmc-nfc", "name": "中色股份"},
+        {"unit_id": "cnmc-engineering", "name": "中国有色工程技术类单位"},
+        {"unit_id": "cnmc-domestic", "name": "中国有色国内区域矿山公司"},
+        {"unit_id": "cnmc-commercial", "name": "中国有色冶炼和贸易类单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "pipechina", "name": "国家管网集团", "sector": "油气储运", "priority": "重点冲", "source_ids": ["pipechina-careers"],
+      "members": [
+        {"unit_id": "pipechina-storage", "name": "国家管网储能技术和储气库相关单位", "priority": "重点冲"},
+        {"unit_id": "pipechina-research", "name": "国家管网科学技术研究总院"},
+        {"unit_id": "pipechina-tech", "name": "国家管网技术中心"},
+        {"unit_id": "pipechina-west-east", "name": "西气东输公司"},
+        {"unit_id": "pipechina-north", "name": "北方管道公司"},
+        {"unit_id": "pipechina-west", "name": "西部管道公司"},
+        {"unit_id": "pipechina-south", "name": "华南管道公司"},
+        {"unit_id": "pipechina-east", "name": "华东管道公司"},
+        {"unit_id": "pipechina-southwest", "name": "西南管道公司"},
+        {"unit_id": "pipechina-construction", "name": "国家管网工程建设类单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "shandong-energy", "name": "山东能源集团", "sector": "煤炭能源", "priority": "重点冲", "source_ids": ["shandong-energy-careers"],
+      "members": [
+        {"unit_id": "shandong-yankuang", "name": "兖矿能源", "priority": "重点冲"},
+        {"unit_id": "shandong-xinwen", "name": "新汶矿业集团", "priority": "重点冲"},
+        {"unit_id": "shandong-zaozhuang", "name": "枣庄矿业集团", "priority": "重点冲"},
+        {"unit_id": "shandong-zibo", "name": "淄博矿业集团"},
+        {"unit_id": "shandong-linyi", "name": "临沂矿业集团"},
+        {"unit_id": "shandong-northwest", "name": "西北矿业"},
+        {"unit_id": "shandong-xinjiang", "name": "山东能源新疆资源单位"},
+        {"unit_id": "shandong-inner-mongolia", "name": "山东能源内蒙古资源单位"},
+        {"unit_id": "shandong-construction", "name": "山东能源建工单位", "priority": "专业匹配较弱"},
+        {"unit_id": "shandong-equipment-chemical", "name": "山东能源装备化工单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "shccig", "name": "陕煤集团", "sector": "煤炭能源", "priority": "重点冲", "source_ids": ["shccig-careers"],
+      "members": [
+        {"unit_id": "shccig-shenmu", "name": "陕煤集团神木矿业相关单位", "priority": "重点冲"},
+        {"unit_id": "shccig-shennan", "name": "神南矿业", "priority": "重点冲"},
+        {"unit_id": "shccig-north", "name": "陕北矿业公司", "priority": "重点冲"},
+        {"unit_id": "shccig-huangling", "name": "黄陵矿业公司", "priority": "重点冲"},
+        {"unit_id": "shccig-binchang", "name": "彬长矿业公司", "priority": "重点冲"},
+        {"unit_id": "shccig-tongchuan", "name": "铜川矿业公司"},
+        {"unit_id": "shccig-pubai", "name": "蒲白矿业公司"},
+        {"unit_id": "shccig-hancheng", "name": "韩城矿业公司"},
+        {"unit_id": "shccig-chemical", "name": "陕煤集团煤化工单位", "priority": "专业匹配较弱"},
+        {"unit_id": "shccig-construction-equipment", "name": "陕煤集团建设装备单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "jinneng", "name": "晋能控股集团", "sector": "煤炭能源", "priority": "重点冲", "source_ids": ["jinneng-notices"],
+      "members": [
+        {"unit_id": "jinneng-coal", "name": "晋能控股煤业集团", "priority": "重点冲"},
+        {"unit_id": "jinneng-tongmei", "name": "原同煤核心矿区", "priority": "重点冲"},
+        {"unit_id": "jinneng-equipment-mines", "name": "晋能控股装备制造集团下属煤矿"},
+        {"unit_id": "jinneng-jincheng", "name": "晋城煤炭事业部相关煤矿"},
+        {"unit_id": "jinneng-luan-chemical", "name": "潞安化工相关单位"},
+        {"unit_id": "jinneng-luan-mining", "name": "潞安矿业相关单位"},
+        {"unit_id": "jinneng-yangmei", "name": "阳煤相关矿区"},
+        {"unit_id": "jinneng-power", "name": "晋能控股电力板块", "priority": "专业匹配较弱"},
+        {"unit_id": "jinneng-other", "name": "晋能控股装备化工板块", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "shanxi-coking", "name": "山西焦煤集团", "sector": "煤炭能源", "priority": "重点冲", "source_ids": ["shanxi-coking-notices"],
+      "members": [
+        {"unit_id": "shanxi-xishan", "name": "西山煤电", "priority": "重点冲"},
+        {"unit_id": "shanxi-fenxi", "name": "汾西矿业", "priority": "重点冲"},
+        {"unit_id": "shanxi-huozhou", "name": "霍州煤电", "priority": "重点冲"},
+        {"unit_id": "shanxi-huajin", "name": "华晋焦煤"},
+        {"unit_id": "shanxi-shanmei", "name": "山煤国际"},
+        {"unit_id": "shanxi-resource", "name": "山西焦煤资源类岗位"},
+        {"unit_id": "shanxi-downstream", "name": "山西焦煤焦化电力装备单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "huaihe-energy", "name": "淮河能源集团", "sector": "煤炭能源", "priority": "保底", "source_ids": ["huaihe-energy-home"],
+      "members": [
+        {"unit_id": "huaihe-huainan", "name": "淮南矿业集团核心矿区"},
+        {"unit_id": "huaihe-coal", "name": "淮河能源煤业板块"},
+        {"unit_id": "huaihe-guqiao", "name": "顾桥矿"},
+        {"unit_id": "huaihe-panji", "name": "潘集矿区"},
+        {"unit_id": "huaihe-zhangji", "name": "张集矿"},
+        {"unit_id": "huaihe-power", "name": "淮河能源电力板块", "priority": "专业匹配较弱"},
+        {"unit_id": "huaihe-gas", "name": "淮河能源燃气板块", "priority": "专业匹配较弱"},
+        {"unit_id": "huaihe-logistics", "name": "淮河能源物流板块", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "jizhong-energy", "name": "冀中能源集团", "sector": "煤炭能源", "priority": "保底", "source_ids": ["jizhong-energy-home"],
+      "members": [
+        {"unit_id": "jizhong-fengfeng", "name": "峰峰集团"},
+        {"unit_id": "jizhong-handan", "name": "邯郸矿业集团"},
+        {"unit_id": "jizhong-xingtai", "name": "邢台矿业集团"},
+        {"unit_id": "jizhong-jingxing", "name": "井陉矿区相关单位"},
+        {"unit_id": "jizhong-medicine", "name": "冀中能源医药单位", "priority": "专业匹配较弱"},
+        {"unit_id": "jizhong-equipment", "name": "冀中能源装备单位", "priority": "专业匹配较弱"},
+        {"unit_id": "jizhong-logistics", "name": "冀中能源物流单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "kailuan", "name": "开滦集团", "sector": "煤炭能源", "priority": "保底", "source_ids": ["kailuan-home"],
+      "members": [
+        {"unit_id": "kailuan-listed", "name": "开滦股份"},
+        {"unit_id": "kailuan-core", "name": "开滦集团核心煤矿"},
+        {"unit_id": "kailuan-tangshan", "name": "唐山矿"},
+        {"unit_id": "kailuan-fangezhuang", "name": "范各庄矿"},
+        {"unit_id": "kailuan-lujiatuo", "name": "吕家坨矿"},
+        {"unit_id": "kailuan-inner-mongolia", "name": "开滦集团内蒙古资源单位"},
+        {"unit_id": "kailuan-remote", "name": "开滦集团外埠资源单位"},
+        {"unit_id": "kailuan-downstream", "name": "开滦集团化工物流装备板块", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "henan-energy", "name": "河南能源集团", "sector": "煤炭能源", "priority": "保底", "source_ids": ["henan-energy-home"],
+      "members": [
+        {"unit_id": "henan-yongmei", "name": "永煤集团"},
+        {"unit_id": "henan-jiaomei", "name": "焦煤公司"},
+        {"unit_id": "henan-hemei", "name": "鹤煤公司"},
+        {"unit_id": "henan-yimei", "name": "义煤公司"},
+        {"unit_id": "henan-chemical", "name": "河南能源化工单位", "priority": "专业匹配较弱"},
+        {"unit_id": "henan-equipment", "name": "河南能源装备单位", "priority": "专业匹配较弱"},
+        {"unit_id": "henan-logistics", "name": "河南能源物流单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {"unit_id": "longmay", "name": "龙煤集团", "sector": "煤炭能源", "priority": "保底", "source_ids": ["longmay-home"], "members": [
+      {"unit_id": "longmay-geology", "name": "龙煤集团煤矿地质单位"},
+      {"unit_id": "longmay-hydro", "name": "龙煤集团水文地质单位"},
+      {"unit_id": "longmay-resource", "name": "龙煤集团资源管理单位"}
+    ]},
+    {
+      "unit_id": "shandong-gold", "name": "山东黄金集团", "sector": "黄金矿业", "priority": "必投", "source_ids": ["shandong-gold-home"],
+      "members": [
+        {"unit_id": "shandong-gold-exploration", "name": "山东黄金地质矿产勘查有限公司", "priority": "必投"},
+        {"unit_id": "shandong-gold-geology", "name": "山东黄金地勘单位", "priority": "必投"},
+        {"unit_id": "shandong-gold-listed", "name": "山东黄金矿业股份有限公司", "priority": "必投"},
+        {"unit_id": "shandong-gold-core", "name": "山东黄金核心矿山", "priority": "必投"},
+        {"unit_id": "shandong-gold-jiaojia", "name": "焦家金矿", "priority": "必投"},
+        {"unit_id": "shandong-gold-sanshandao", "name": "三山岛金矿", "priority": "必投"},
+        {"unit_id": "shandong-gold-xincheng", "name": "新城金矿", "priority": "必投"},
+        {"unit_id": "shandong-gold-research", "name": "山东黄金集团研究院"},
+        {"unit_id": "shandong-gold-tech", "name": "山东黄金集团技术中心"},
+        {"unit_id": "shandong-gold-domestic", "name": "山东黄金省外资源开发公司"},
+        {"unit_id": "shandong-gold-overseas", "name": "山东黄金海外资源开发公司"},
+        {"unit_id": "shandong-gold-downstream", "name": "山东黄金冶炼销售贸易单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "jiangxi-copper", "name": "江西铜业集团", "sector": "有色矿业", "priority": "必投", "source_ids": ["jiangxi-copper-home"],
+      "members": [
+        {"unit_id": "jiangxi-copper-exploration", "name": "江西铜业集团地勘工程有限公司", "priority": "必投"},
+        {"unit_id": "jiangxi-copper-research", "name": "江铜研究院"},
+        {"unit_id": "jiangxi-copper-tech", "name": "江铜技术中心"},
+        {"unit_id": "jiangxi-copper-dexing", "name": "德兴铜矿", "priority": "必投"},
+        {"unit_id": "jiangxi-copper-yongping", "name": "永平铜矿"},
+        {"unit_id": "jiangxi-copper-chengmenshan", "name": "城门山铜矿"},
+        {"unit_id": "jiangxi-copper-listed", "name": "江铜股份矿业板块"},
+        {"unit_id": "jiangxi-copper-smelting", "name": "江铜冶炼单位", "priority": "专业匹配较弱"},
+        {"unit_id": "jiangxi-copper-finance", "name": "江铜产融单位", "priority": "专业匹配较弱"},
+        {"unit_id": "jiangxi-copper-trade", "name": "江铜贸易单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "yunnan-copper", "name": "云南铜业", "aliases": ["云铜"], "sector": "有色矿业", "priority": "必投", "source_ids": ["chinalco-careers"],
+      "members": [
+        {"unit_id": "yunnan-copper-resources", "name": "云铜资源开发类单位", "priority": "必投"},
+        {"unit_id": "yunnan-copper-mining", "name": "云铜矿业资源开发类单位", "priority": "必投"},
+        {"unit_id": "yunnan-copper-research", "name": "云铜研究院"},
+        {"unit_id": "yunnan-copper-tech", "name": "云铜技术中心"},
+        {"unit_id": "yunnan-copper-pulang", "name": "普朗铜矿", "priority": "必投"},
+        {"unit_id": "yunnan-copper-mouding", "name": "牟定铜矿"},
+        {"unit_id": "yunnan-copper-listed", "name": "云南铜业股份矿山板块"},
+        {"unit_id": "yunnan-copper-downstream", "name": "云南铜业冶炼销售贸易单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "yunnan-tin", "name": "云锡集团", "sector": "有色矿业", "priority": "必投", "source_ids": ["yunnan-tin-home"],
+      "members": [
+        {"unit_id": "yunnan-tin-exploration", "name": "云锡地质勘查单位", "priority": "必投"},
+        {"unit_id": "yunnan-tin-resources", "name": "云锡资源开发类单位", "priority": "必投"},
+        {"unit_id": "yunnan-tin-branch", "name": "云南锡业股份有限公司锡业分公司", "priority": "必投"},
+        {"unit_id": "yunnan-tin-research", "name": "云锡研究院"},
+        {"unit_id": "yunnan-tin-tech", "name": "云锡技术中心"},
+        {"unit_id": "yunnan-tin-gejiu", "name": "个旧矿区"},
+        {"unit_id": "yunnan-tin-laochang", "name": "老厂矿区"},
+        {"unit_id": "yunnan-tin-kafang", "name": "卡房矿区"},
+        {"unit_id": "yunnan-tin-sino-platinum", "name": "贵研铂业", "priority": "专业匹配较弱"},
+        {"unit_id": "yunnan-tin-material", "name": "云锡材料类单位", "priority": "专业匹配较弱"},
+        {"unit_id": "yunnan-tin-downstream", "name": "云锡建设物流化工单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "baogang", "name": "包钢集团和北方稀土", "sector": "有色矿业", "priority": "重点冲", "source_ids": ["baogang-home", "northern-rare-earth-home"],
+      "members": [
+        {"unit_id": "baogang-bayan-obo", "name": "白云鄂博矿区", "priority": "重点冲"},
+        {"unit_id": "baogang-mining", "name": "包钢集团矿业板块"},
+        {"unit_id": "northern-rare-earth-resource", "name": "北方稀土资源类单位"},
+        {"unit_id": "northern-rare-earth-mining", "name": "北方稀土矿业类单位"},
+        {"unit_id": "baogang-geology", "name": "包钢勘察和地质技术类单位"},
+        {"unit_id": "northern-rare-earth-research", "name": "北方稀土研究院"},
+        {"unit_id": "northern-rare-earth-tech", "name": "北方稀土技术中心"},
+        {"unit_id": "northern-rare-earth-downstream", "name": "北方稀土冶炼材料磁材单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "steel-mining", "name": "钢铁集团矿业板块", "sector": "黑色矿业", "priority": "保底", "source_ids": ["ansteel-home", "shougang-home", "hbisco-home"],
+      "members": [
+        {"unit_id": "ansteel-mining", "name": "鞍钢矿业"},
+        {"unit_id": "bensteel-mining", "name": "本钢矿业"},
+        {"unit_id": "shougang-mining", "name": "首钢矿业"},
+        {"unit_id": "hbisco-mining", "name": "河钢矿业"},
+        {"unit_id": "ansteel-qidashan", "name": "齐大山铁矿"},
+        {"unit_id": "ansteel-yanqianshan", "name": "眼前山铁矿"},
+        {"unit_id": "ansteel-donganshan", "name": "东鞍山铁矿"},
+        {"unit_id": "shougang-qianan", "name": "迁安矿区"},
+        {"unit_id": "hbisco-chengde", "name": "承德矿区"},
+        {"unit_id": "steel-resource", "name": "钢铁矿业资源管理岗"},
+        {"unit_id": "steel-tech", "name": "钢铁矿业技术中心"}
+      ]
+    },
+    {
+      "unit_id": "jiugang", "name": "酒钢集团矿业板块", "sector": "黑色矿业", "priority": "保底", "source_ids": ["jiugang-home"],
+      "members": [
+        {"unit_id": "jiugang-mining", "name": "酒钢矿业公司"},
+        {"unit_id": "jiugang-jingtieshan", "name": "镜铁山矿"},
+        {"unit_id": "jiugang-resource", "name": "酒钢资源开发和地质技术部门"},
+        {"unit_id": "jiugang-tech", "name": "酒钢技术中心"},
+        {"unit_id": "jiugang-research", "name": "酒钢研究院"},
+        {"unit_id": "jiugang-downstream", "name": "酒钢钢铁冶炼装备物流单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "zhaojin", "name": "招金集团", "sector": "黄金矿业", "priority": "重点冲", "source_ids": ["zhaojin-home"],
+      "members": [
+        {"unit_id": "zhaojin-geology", "name": "招金地质勘查单位", "priority": "重点冲"},
+        {"unit_id": "zhaojin-resource", "name": "招金资源开发类单位", "priority": "重点冲"},
+        {"unit_id": "zhaojin-mining", "name": "招金矿业股份有限公司"},
+        {"unit_id": "zhaojin-core", "name": "招金核心矿山"},
+        {"unit_id": "zhaojin-linglong", "name": "玲珑金矿"},
+        {"unit_id": "zhaojin-xiadian", "name": "夏甸金矿"},
+        {"unit_id": "zhaojin-dayingezhuang", "name": "大尹格庄金矿"},
+        {"unit_id": "zhaojin-tech", "name": "招金技术中心"},
+        {"unit_id": "zhaojin-research", "name": "招金研究院"},
+        {"unit_id": "zhaojin-downstream", "name": "招金冶炼销售金融单位", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "powerchina", "name": "中国电建", "sector": "工程建设", "priority": "保底", "source_ids": ["powerchina-careers"],
+      "members": [
+        {"unit_id": "powerchina-design", "name": "中国电建勘测设计研究院"},
+        {"unit_id": "powerchina-renewable", "name": "中国电建新能源开发公司"},
+        {"unit_id": "powerchina-hydro", "name": "中国电建水电开发公司"},
+        {"unit_id": "powerchina-bureau", "name": "中国电建区域工程局", "priority": "专业匹配较弱"},
+        {"unit_id": "powerchina-overseas", "name": "中国电建海外工程公司", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "energy-china", "name": "中国能建", "sector": "工程建设", "priority": "保底", "source_ids": ["energy-china-careers"],
+      "members": [
+        {"unit_id": "energy-china-design", "name": "中国能建勘测设计研究院"},
+        {"unit_id": "energy-china-renewable", "name": "中国能建新能源开发公司"},
+        {"unit_id": "energy-china-hydro", "name": "中国能建水电开发公司"},
+        {"unit_id": "energy-china-bureau", "name": "中国能建区域工程局", "priority": "专业匹配较弱"},
+        {"unit_id": "energy-china-overseas", "name": "中国能建海外工程公司", "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "crec", "name": "中国中铁", "sector": "工程建设", "priority": "保底", "source_ids": ["crec-careers"],
+      "members": [
+        {"unit_id": "crec-design", "name": "中国中铁勘察设计院"},
+        {"unit_id": "crec-consulting", "name": "中国中铁咨询院"},
+        {"unit_id": "crec-tunnel", "name": "中国中铁隧道局", "priority": "专业匹配较弱"},
+        {"unit_id": "crec-underground", "name": "中国中铁地下工程单位", "priority": "专业匹配较弱"},
+        {"unit_id": "crec-regional", "name": "中国中铁区域工程局", "priority": "专业匹配较弱"},
+        {"unit_id": "crec-sixth-survey", "name": "中铁第六勘察设计院集团有限公司", "aliases": ["中铁六院"], "priority": "专业匹配较弱"}
+      ]
+    },
+    {
+      "unit_id": "crcc", "name": "中国铁建", "sector": "工程建设", "priority": "保底", "source_ids": ["crcc-careers"],
+      "members": [
+        {"unit_id": "crcc-design", "name": "中国铁建勘察设计院"},
+        {"unit_id": "crcc-consulting", "name": "中国铁建咨询院"},
+        {"unit_id": "crcc-tunnel", "name": "中国铁建隧道局", "priority": "专业匹配较弱"},
+        {"unit_id": "crcc-underground", "name": "中国铁建地下工程单位", "priority": "专业匹配较弱"},
+        {"unit_id": "crcc-regional", "name": "中国铁建区域工程局", "priority": "专业匹配较弱"},
+        {"unit_id": "crcc-shanghai-design", "name": "中铁上海设计院集团有限公司", "priority": "重点冲"}
+      ]
+    },
+    {"unit_id": "cccc", "name": "中国交建", "sector": "工程建设", "priority": "保底", "source_ids": ["cccc-careers"], "members": [
+      {"unit_id": "cccc-design", "name": "中国交建勘察设计院"},
+      {"unit_id": "cccc-consulting", "name": "中国交建咨询院"},
+      {"unit_id": "cccc-underground", "name": "中国交建地下工程单位", "priority": "专业匹配较弱"},
+      {"unit_id": "cccc-regional", "name": "中国交建区域工程局", "priority": "专业匹配较弱"},
+      {"unit_id": "cccc-municipal", "name": "中国交建市政施工单位", "priority": "专业匹配较弱"}
+    ]},
+    {"unit_id": "cscec", "name": "中国建筑", "sector": "工程建设", "priority": "保底", "source_ids": ["cscec-careers"], "members": [
+      {"unit_id": "cscec-design", "name": "中国建筑勘察设计院"},
+      {"unit_id": "cscec-consulting", "name": "中国建筑咨询院"},
+      {"unit_id": "cscec-underground", "name": "中国建筑地下工程单位", "priority": "专业匹配较弱"},
+      {"unit_id": "cscec-regional", "name": "中国建筑区域工程局", "priority": "专业匹配较弱"},
+      {"unit_id": "cscec-housing", "name": "中国建筑房建和市政施工单位", "priority": "专业匹配较弱"}
+    ]},
+    {"unit_id": "china-aneng", "name": "中国安能", "sector": "工程建设", "priority": "保底", "source_ids": ["china-aneng-home"], "members": [
+      {"unit_id": "china-aneng-hazard", "name": "中国安能地质灾害岗位"},
+      {"unit_id": "china-aneng-eco", "name": "中国安能生态修复岗位"}
+    ]},
+    {
+      "unit_id": "cgs", "name": "中国地质调查局", "sector": "科研事业", "priority": "必投", "source_ids": ["cgs-recruitment"],
+      "members": [
+        {"unit_id": "cgs-direct", "name": "中国地质调查局直属单位", "priority": "必投"},
+        {"unit_id": "provincial-geology", "name": "各省地矿局及改制企业"},
+        {"unit_id": "provincial-coal-geology", "name": "各省煤田地质局及下属企业"},
+        {"unit_id": "provincial-nonferrous", "name": "各省有色地勘局及下属企业"},
+        {"unit_id": "natural-resource-investment", "name": "各省自然资源投资集团"},
+        {"unit_id": "other-geology-institutes", "name": "其他招收地质类专业的科研院所和事业单位"}
+      ]
+    }
+  ]
+}
