@@ -28,3 +28,17 @@ test("截止状态根据明确日期计算并保留未注明状态", () => {
   assert.equal(getDeadlineState("2026-07-20T12:00:00+08:00", new Date("2026-07-14T00:00:00+08:00")), "临近截止");
   assert.equal(getDeadlineState("2026-07-13T23:59:00+08:00", new Date("2026-07-14T00:00:00+08:00")), "已截止");
 });
+
+test("可以筛选工程类限定和扩展发现岗位", () => {
+  const sample = [
+    { ...jobs[0], id: "base", match: "完全匹配" as const, registryScope: "base" as const },
+    {
+      ...jobs[0],
+      id: "discovered-engineering",
+      match: "工程类限定" as const,
+      registryScope: "discovered" as const,
+    },
+  ];
+  assert.equal(filterJobs(sample, { match: "工程类限定" }).length, 1);
+  assert.equal(filterJobs(sample, { registryScope: "discovered" }).length, 1);
+});

@@ -1,4 +1,4 @@
-import type { MatchLevel, Priority, Sector } from "../jobs";
+import type { MatchLevel, Priority, RegistryScope, Sector } from "../jobs";
 import { matchOptions, priorityOptions, sectorOptions } from "../jobs";
 
 type FilterBarProps = {
@@ -6,11 +6,13 @@ type FilterBarProps = {
   priority: Priority | "全部";
   match: MatchLevel | "全部";
   sector: Sector | "全部";
+  registryScope: RegistryScope | "全部";
   hasFilters: boolean;
   onQueryChange: (value: string) => void;
   onPriorityChange: (value: Priority | "全部") => void;
   onMatchChange: (value: MatchLevel | "全部") => void;
   onSectorChange: (value: Sector | "全部") => void;
+  onRegistryScopeChange: (value: RegistryScope | "全部") => void;
   onReset: () => void;
 };
 
@@ -26,11 +28,13 @@ export function FilterBar({
   priority,
   match,
   sector,
+  registryScope,
   hasFilters,
   onQueryChange,
   onPriorityChange,
   onMatchChange,
   onSectorChange,
+  onRegistryScopeChange,
   onReset,
 }: FilterBarProps) {
   return (
@@ -77,6 +81,18 @@ export function FilterBar({
       </label>
 
       <label className="select-field">
+        <span>名单范围</span>
+        <select
+          value={registryScope}
+          onChange={(event) => onRegistryScopeChange(event.target.value as RegistryScope | "全部")}
+        >
+          <option value="全部">全部范围</option>
+          <option value="base">基础名册</option>
+          <option value="discovered">扩展发现</option>
+        </select>
+      </label>
+
+      <label className="select-field">
         <span>单位类别</span>
         <select
           value={sector}
@@ -97,4 +113,3 @@ export function FilterBar({
     </div>
   );
 }
-

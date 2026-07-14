@@ -5,6 +5,7 @@ import re
 from typing import Iterable
 from zoneinfo import ZoneInfo
 
+from monitor.discovery import resolve_employer
 from monitor.fingerprint import normalize_text
 from monitor.match import classify_major, has_geology_signal, is_target_recruitment
 from monitor.schema import Source, Unit
@@ -43,6 +44,12 @@ class Candidate:
     evidence: str
     rule_id: str
     change_summary: str
+    registry_scope: str
+    employer_type: str
+    major_category: str
+    verification_status: str
+    source_evidence: tuple[dict, ...]
+    fallback_used: bool
 
 
 def _date_match(text: str, labels: str) -> tuple[str, tuple[int, int] | None] | None:
@@ -64,18 +71,11 @@ def _field(text: str, labels: tuple[str, ...]) -> str:
     label_pattern = "|".join(re.escape(label) for label in labels)
     boundary = (
         r"(?=\n\s*(?:发布日期|发布时间|报名截止时间|截止时间|招聘岗位|岗位名称|"
-        r"学历要求|学历|专业要求|专业|工作地点|地点|任职要求|应聘条件)\s*[：:]|\Z)"
+        r"学历要求|学历|专业要求|专业|工作地点|地点|岗位详情|岗位职责|工作职责|"
+        r"任职要求|任职资格|应聘条件)\s*[：:]|\Z)"
     )
     match = re.search(rf"(?:{label_pattern})\s*[：:]\s*(.+?){boundary}", text, flags=re.S)
     return normalize_text(match.group(1)) if match else ""
-
-
-def _resolve_unit(text: str, units: list[Unit], source: Source) -> Unit | None:
-    eligible = [unit for unit in units if unit.name in text or any(alias in text for alias in unit.aliases)]
-    if eligible:
-        return max(eligible, key=lambda unit: max([len(unit.name), *(len(alias) for alias in unit.aliases)]))
-    source_units = set(source.unit_ids)
-    return next((unit for unit in units if unit.unit_id in source_units), None)
 
 
 def _batch(text: str) -> str:
@@ -96,9 +96,10 @@ def parse_candidate(
 ) -> Candidate | None:
     if not is_target_recruitment(text) or not has_geology_signal(text):
         return None
-    unit = _resolve_unit(text, units, source)
-    if unit is None:
+    resolved = resolve_employer(text, units, source)
+    if resolved is None:
         return None
+    unit = resolved.unit
 
     decision = classify_major(text)
     published = _date_match(text, "发布日期|发布时间|公告日期")
@@ -118,7 +119,11 @@ def parse_candidate(
 
     unit_by_id = {item.unit_id: item for item in units}
     parent = unit_by_id.get(unit.parent_unit_id) if unit.parent_unit_id else None
-    parent_name = parent.name if parent else unit.group
+    parent_name = (
+        resolved.employer_type
+        if resolved.registry_scope == "discovered"
+        else parent.name if parent else unit.group
+    )
     batch = _batch(text)
     stable_key = normalize_text(f"{unit.name}|{batch}|{published_at}")
     candidate_id = hashlib.sha256(stable_key.encode("utf-8")).hexdigest()[:16]
@@ -127,6 +132,16 @@ def parse_candidate(
     education = _field(text, ("学历要求", "学历")) or "官方正文未解析"
     locations_value = _field(text, ("工作地点", "地点"))
     timestamp = discovered_at.astimezone(SHANGHAI).isoformat()
+    major_category = {
+        "major.exact": "geology",
+        "major.related": "broad-geoscience",
+        "major.engineering_only": "engineering-only",
+    }.get(decision.rule_id, "consult")
+    verification_status = {
+        "l1": "official",
+        "l2": "authoritative",
+        "l3": "lead",
+    }.get(source.tier, "lead")
 
     return Candidate(
         id=candidate_id,
@@ -152,10 +167,25 @@ def parse_candidate(
         source_ids=(source.source_id,),
         first_seen_at=timestamp,
         last_confirmed_at=timestamp,
-        status="可投",
+        status="待核验线索" if verification_status == "lead" else "可投",
         evidence=decision.evidence,
         rule_id=decision.rule_id,
         change_summary="首次发现",
+        registry_scope=resolved.registry_scope,
+        employer_type=resolved.employer_type,
+        major_category=major_category,
+        verification_status=verification_status,
+        source_evidence=(
+            {
+                "sourceId": source.source_id,
+                "name": source.name,
+                "url": source.url,
+                "tier": source.tier,
+                "trust": source.trust,
+                "discoveredAt": timestamp,
+            },
+        ),
+        fallback_used=source.tier == "l2",
     )
 
 
@@ -178,5 +208,21 @@ def dedupe_candidates(candidates: Iterable[Candidate | None]) -> list[Candidate]
             )
         )
         source_ids = tuple(dict.fromkeys(source_id for item in ordered for source_id in item.source_ids))
-        merged.append(replace(primary, mirror_urls=mirrors, source_ids=source_ids))
+        evidence: list[dict] = []
+        seen_evidence: set[tuple[str, str]] = set()
+        for item in ordered:
+            for row in item.source_evidence:
+                key = (str(row.get("sourceId", "")), str(row.get("url", "")))
+                if key in seen_evidence:
+                    continue
+                seen_evidence.add(key)
+                evidence.append(row)
+        merged.append(
+            replace(
+                primary,
+                mirror_urls=mirrors,
+                source_ids=source_ids,
+                source_evidence=tuple(evidence),
+            )
+        )
     return sorted(merged, key=lambda item: (item.published_at, item.company), reverse=True)

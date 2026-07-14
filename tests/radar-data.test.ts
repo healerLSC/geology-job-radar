@@ -18,3 +18,13 @@ test("every job preserves matching evidence", () => {
   assert.ok(radar.jobs.every((job) => job.evidence && job.ruleId));
   assert.ok(radar.jobs.every((job) => Array.isArray(job.mirrorUrls)));
 });
+
+
+test("radar exposes unit fallback health", () => {
+  assert.ok(radar.coverage.unitHealth);
+  assert.equal(typeof radar.coverage.unitHealth.fallback, "number");
+  assert.equal(
+    Object.values(radar.coverage.unitHealth).reduce((total, value) => total + value, 0),
+    radar.coverage.totalUnits,
+  );
+});

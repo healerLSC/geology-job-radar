@@ -286,7 +286,7 @@ svg {
 
 .coverage-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   border-inline: 1px solid var(--line);
 }
@@ -420,7 +420,7 @@ svg {
 
 .filter-bar {
   display: grid;
-  grid-template-columns: minmax(280px, 1.7fr) repeat(3, minmax(130px, 0.72fr)) auto;
+  grid-template-columns: minmax(220px, 1.4fr) repeat(4, minmax(112px, 0.62fr)) auto;
   gap: 10px;
   align-items: end;
   padding: 16px;
@@ -599,6 +599,17 @@ svg {
   color: var(--accent-dark);
 }
 
+.match--大类可能匹配 {
+  border-color: #c8d8cf;
+  color: #476457;
+}
+
+.match--工程类限定 {
+  border-color: #e0c98e;
+  background: #fffaf0;
+  color: #89691f;
+}
+
 .match--需咨询 {
   border-color: #d8d9d8;
   color: #707773;
@@ -608,6 +619,17 @@ svg {
 .status-badge--已截止 {
   background: var(--warning-soft);
   color: var(--warning);
+}
+
+.status-badge--待核验线索,
+.fallback-badge {
+  background: #fff4d9;
+  color: #7d5c16;
+}
+
+.scope-badge {
+  background: #e9f0f8;
+  color: #355f88;
 }
 
 .deadline {

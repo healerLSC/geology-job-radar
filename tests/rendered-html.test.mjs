@@ -20,6 +20,9 @@ test("renders the geology job radar content and verification language", () => {
   assert.match(html, /独立自动监控/);
   assert.match(html, /349/);
   assert.match(html, /来源健康/);
+  assert.match(html, /备用来源正常/);
+  assert.match(html, /工程类限定/);
+  assert.match(html, /扩展发现/);
   assert.match(html, /历史岗位/);
   assert.match(html, /最终以官方公告为准/);
 });

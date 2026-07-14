@@ -13,6 +13,7 @@ import {
   radar,
   type MatchLevel,
   type Priority,
+  type RegistryScope,
   type Sector,
 } from "./jobs";
 
@@ -39,21 +40,25 @@ export default function JobRadar() {
   const [priority, setPriority] = useState<Priority | "全部">("全部");
   const [match, setMatch] = useState<MatchLevel | "全部">("全部");
   const [sector, setSector] = useState<Sector | "全部">("全部");
+  const [registryScope, setRegistryScope] = useState<RegistryScope | "全部">("全部");
   const deferredQuery = useDeferredValue(query);
   const visibleJobs = view === "active" ? jobs : historyJobs;
 
   const filteredJobs = useMemo(
-    () => filterJobs(visibleJobs, { query: deferredQuery, priority, match, sector }),
-    [visibleJobs, deferredQuery, priority, match, sector],
+    () => filterJobs(visibleJobs, { query: deferredQuery, priority, match, sector, registryScope }),
+    [visibleJobs, deferredQuery, priority, match, sector, registryScope],
   );
 
-  const hasFilters = Boolean(query || priority !== "全部" || match !== "全部" || sector !== "全部");
+  const hasFilters = Boolean(
+    query || priority !== "全部" || match !== "全部" || sector !== "全部" || registryScope !== "全部",
+  );
 
   const resetFilters = () => {
     setQuery("");
     setPriority("全部");
     setMatch("全部");
     setSector("全部");
+    setRegistryScope("全部");
   };
 
   return (
@@ -82,11 +87,12 @@ export default function JobRadar() {
       <div id="top" className="page-shell page-content">
         <section className="intro" aria-labelledby="page-title">
           <div>
-            <p className="intro__eyebrow">全名单招聘监控</p>
+            <p className="intro__eyebrow">基础名册＋扩展发现</p>
             <h1 id="page-title">今天只看值得投的</h1>
             <p className="intro__copy">
               汇总公开可访问的招聘渠道，优先标出新增、临近截止和真正接受
-              <strong>地质学</strong>专业的机会。每家子公司、研究院和矿区分别核查。
+              <strong>地质学</strong>专业的机会；工程类岗位照常收集并单独标注。
+              每家子公司、研究院和矿区分别核查，名单外单位也持续发现。
             </p>
           </div>
           <div className="intro__note">
@@ -152,11 +158,13 @@ export default function JobRadar() {
             priority={priority}
             match={match}
             sector={sector}
+            registryScope={registryScope}
             hasFilters={hasFilters}
             onQueryChange={setQuery}
             onPriorityChange={setPriority}
             onMatchChange={setMatch}
             onSectorChange={setSector}
+            onRegistryScopeChange={setRegistryScope}
             onReset={resetFilters}
           />
 
@@ -193,12 +201,16 @@ export default function JobRadar() {
               公告原文明确包含“地质学”或专业代码0709。
             </p>
             <p>
-              <strong>可能匹配</strong>
+              <strong>大类可能匹配</strong>
               公告使用“地质类、相关专业”等宽口径，但没有完整专业目录。
             </p>
             <p>
-              <strong>需咨询</strong>
-              仅列出地质工程、资源勘查工程、工程地质或物探，投递前必须确认。
+              <strong>工程类限定</strong>
+              仅列出地质工程、资源勘查工程、工程地质或物探；仍然收集，但地质学投递前必须确认。
+            </p>
+            <p>
+              <strong>扩展发现</strong>
+              原始349家之外的企业、科研院所和事业单位，只要招聘地质相关专业也会进入雷达。
             </p>
           </div>
         </section>

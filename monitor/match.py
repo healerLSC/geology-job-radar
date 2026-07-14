@@ -46,11 +46,11 @@ def classify_major(text: str) -> MatchDecision:
     related = next((pattern for pattern in RELATED_PATTERNS if re.search(pattern, text)), None)
     if related:
         evidence = re.search(related, text).group(0)
-        return MatchDecision("可能匹配", "保底", evidence, "major.related")
+        return MatchDecision("大类可能匹配", "保底", evidence, "major.related")
     engineering = [term for term in ENGINEERING_ONLY if term in text]
     if engineering:
         return MatchDecision(
-            "需咨询",
+            "工程类限定",
             "专业匹配较弱",
             "、".join(dict.fromkeys(engineering)),
             "major.engineering_only",

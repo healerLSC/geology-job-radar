@@ -1,10 +1,11 @@
-import type { JobPosting, MatchLevel, Priority, Sector } from "./jobs";
+import type { JobPosting, MatchLevel, Priority, RegistryScope, Sector } from "./jobs";
 
 export type JobFilters = {
   query?: string;
   priority?: Priority | "全部";
   match?: MatchLevel | "全部";
   sector?: Sector | "全部";
+  registryScope?: RegistryScope | "全部";
 };
 
 export type DeadlineState = "临近截止" | "进行中" | "已截止" | "未注明";
@@ -32,6 +33,11 @@ export function filterJobs(list: JobPosting[], filters: JobFilters = {}) {
     }
     if (filters.match && filters.match !== "全部" && job.match !== filters.match) return false;
     if (filters.sector && filters.sector !== "全部" && job.sector !== filters.sector) return false;
+    if (
+      filters.registryScope
+      && filters.registryScope !== "全部"
+      && job.registryScope !== filters.registryScope
+    ) return false;
     return true;
   });
 }

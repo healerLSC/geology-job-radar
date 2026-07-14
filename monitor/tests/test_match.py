@@ -1,4 +1,4 @@
-from monitor.match import classify_major, is_target_recruitment
+from monitor.match import classify_major, has_geology_signal, is_target_recruitment
 
 
 def test_geology_is_exact_match():
@@ -8,15 +8,17 @@ def test_geology_is_exact_match():
     assert decision.rule_id == "major.exact"
 
 
-def test_geological_engineering_only_requires_consultation():
+def test_geological_engineering_only_is_collected_and_distinguished():
     decision = classify_major("专业要求：地质工程、资源勘查工程、采矿工程")
-    assert decision.level == "需咨询"
+    assert decision.level == "工程类限定"
     assert decision.priority == "专业匹配较弱"
+    assert decision.rule_id == "major.engineering_only"
+    assert has_geology_signal("2027届招聘 专业要求：地质工程")
 
 
 def test_broad_geology_category_is_only_possible_match():
     decision = classify_major("地质类、地学相关专业均可报名")
-    assert decision.level == "可能匹配"
+    assert decision.level == "大类可能匹配"
 
 
 def test_target_graduation_batch():

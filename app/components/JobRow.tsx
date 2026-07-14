@@ -49,6 +49,12 @@ export function JobRow({ job }: { job: JobPosting }) {
         <div className="badge-group" aria-label={`投递级别：${job.priority}；专业判断：${job.match}`}>
           <span className={`badge priority priority--${job.priority}`}>{job.priority}</span>
           <span className={`badge match match--${job.match}`}>{job.match}</span>
+          {job.registryScope === "discovered" ? (
+            <span className="badge scope-badge">扩展发现</span>
+          ) : null}
+          {job.fallbackUsed ? (
+            <span className="badge fallback-badge">备用来源</span>
+          ) : null}
           {job.status !== "可投" ? (
             <span className={`badge status-badge status-badge--${job.status}`}>{job.status}</span>
           ) : null}
@@ -69,6 +75,7 @@ export function JobRow({ job }: { job: JobPosting }) {
           <span>{job.batch}</span>
           <span>{publishedLabel(job.publishedAt)}</span>
           <span>{job.sector}</span>
+          <span>{job.employerType}</span>
         </div>
       </div>
 

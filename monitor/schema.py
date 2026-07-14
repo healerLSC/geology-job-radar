@@ -28,6 +28,10 @@ class Source:
     unit_ids: tuple[str, ...]
     mode: str
     official_domains: tuple[str, ...]
+    tier: str = "l1"
+    role: str = "primary"
+    follow_domains: tuple[str, ...] = ()
+    query_terms: tuple[str, ...] = ()
 
 
 def load_units(path: Path) -> list[Unit]:
@@ -72,8 +76,15 @@ def load_units(path: Path) -> list[Unit]:
 
 def load_sources(path: Path) -> list[Source]:
     rows = json.loads(path.read_text(encoding="utf-8"))
-    return [
-        Source(
+    sources: list[Source] = []
+    for row in rows:
+        official_domains = tuple(row.get("official_domains", ()))
+        tier = row.get("tier") or {
+            "official": "l1",
+            "authoritative": "l2",
+            "clue": "l3",
+        }.get(row["trust"], "l3")
+        sources.append(Source(
             source_id=row["source_id"],
             name=row["name"],
             url=row["url"],
@@ -81,10 +92,13 @@ def load_sources(path: Path) -> list[Source]:
             trust=row["trust"],
             unit_ids=tuple(row.get("unit_ids", ())),
             mode=row["mode"],
-            official_domains=tuple(row.get("official_domains", ())),
-        )
-        for row in rows
-    ]
+            official_domains=official_domains,
+            tier=tier,
+            role=row.get("role") or ("primary" if tier == "l1" else "fallback"),
+            follow_domains=tuple(row.get("follow_domains", official_domains)),
+            query_terms=tuple(row.get("query_terms", ())),
+        ))
+    return sources
 
 
 def validate_registry(units: list[Unit], sources: list[Source]) -> list[str]:
@@ -120,4 +134,8 @@ def validate_registry(units: list[Unit], sources: list[Source]) -> list[str]:
             errors.append(f"{source.source_id}: missing units {sorted(missing_units)}")
         if source.trust == "official" and not source.official_domains:
             errors.append(f"{source.source_id}: official source lacks domain allowlist")
+        if source.tier not in {"l1", "l2", "l3"}:
+            errors.append(f"{source.source_id}: invalid tier {source.tier}")
+        if source.role not in {"primary", "fallback", "discovery"}:
+            errors.append(f"{source.source_id}: invalid role {source.role}")
     return errors
