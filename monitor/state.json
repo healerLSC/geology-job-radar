@@ -1,494 +1,494 @@
 {
   "version": 1,
-  "lastRunAt": "2026-07-14T22:27:41.377901+08:00",
+  "lastRunAt": "2026-07-15T20:19:01.991367+08:00",
   "sources": {
     "cnpc-careers": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
+      "failureCount": 4,
       "error": "412 Client Error: Precondition Failed for url: https://zhaopin.cnpc.com.cn/"
     },
     "sinopec-careers": {
       "fingerprint": "2df17d669d2675bd1158f3054d5fbd94a7e7d5971911fa203aa7129066b05df7",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "cnooc-careers": {
       "fingerprint": "e0d60f99adcd8cc86f0d67374b6e78150e3b6ce1f14de6a00b7e186764362474",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "cnooc-iguopin": {
       "fingerprint": "141dd8f065ff504d81ce0b5854fa44ed530addc06bf1751d976c2655d681daa4",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "chn-energy-careers": {
       "fingerprint": "81611df01db5e9f35f20784b750022b59e01f9b7958d6b0f921958febe86fe7e",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "chinacoal-careers": {
       "fingerprint": "7c19a48f9b97d8c2adbeaf83d0b0878aa22a2c7a10ab1608249b56ad0e3fb224",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "chinacoal-notices": {
       "fingerprint": "31a8a6beed6f3f1ca3ff00c941160cc59afe6aece94c0a8c7944ccdb03392948",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "ccgc-careers": {
       "fingerprint": "09f16f937cc65ba5b4a50cfffc15b23d3485b7671e91897c64299cd0bcfde799",
-      "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "status": "failed",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 0,
-      "error": null
+      "failureCount": 1,
+      "error": "HTTPSConnectionPool(host='www.ccgc.cn', port=443): Max retries exceeded with url: /?mod=zhaopin&tid=129 (Caused by NewConnectionError(\"HTTPSConnection(host='www.ccgc.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "ccgc-research": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='kczy.ccgc.cn', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='kczy.ccgc.cn', port=443): Read timed out. (read timeout=30)\"))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='kczy.ccgc.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='kczy.ccgc.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "cmgb-careers": {
       "fingerprint": "df373076aec8a4c96a15f812a9aa4dcfba6d870a0858f5fb80c57548acb9c79d",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "cmgb-first-careers": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='www.zykyj.com', port=443): Max retries exceeded with url: /zykyj/879977/938535/index.html (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='www.zykyj.com', port=443): Max retries exceeded with url: /zykyj/879977/938535/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.zykyj.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "ccgmb-careers": {
       "fingerprint": "95cc79472ace29d76e925f477961864be4cc5b133089e13e74717960a20603d2",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "ccgmb-research": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='www.hgdyy.com.cn', port=443): Max retries exceeded with url: / (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='www.hgdyy.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.hgdyy.com.cn', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     },
     "ccgmb-zhejiang": {
       "fingerprint": "8b7db34f43996fe238b5c63419a06a3c571283bed7c7327fb59122ba14a4a98f",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "ccgmb-hubei": {
       "fingerprint": "90792c96a2173a43bc41b4f7811525dba8bd0a8cd99efe2d9dd0c632786e6e5f",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "ccgmb-hunan": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='www.zhhny.com', port=443): Max retries exceeded with url: / (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='www.zhhny.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zhhny.com'. (_ssl.c:1010)\")))"
     },
     "minmetals-careers": {
       "fingerprint": "7fb726dca92ea768444b6d7618cf629db4c4649a522eaadbf57256e8acd8b93b",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "minmetals-nonferrous": {
       "fingerprint": "8281fe22da8694f2b89e45e1d5a8864e3a881f16b2121b8fbe68aeb1092cab8c",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "china-gold-careers": {
       "fingerprint": "c97628a4851d8888bc6f4aa6e50238837ee10dadc75fa645f8b8fba10c781202",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "china-gold-notices": {
       "fingerprint": "fae04647ce8e84e25818bec9c9a28cf800a27b36155a36b3c5ef2715c47614a2",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "chinalco-careers": {
       "fingerprint": "141dd8f065ff504d81ce0b5854fa44ed530addc06bf1751d976c2655d681daa4",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "chinalco-notices": {
       "fingerprint": "",
       "status": "restricted",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
+      "failureCount": 4,
       "error": "公开抓取受限"
     },
     "cnmc-careers": {
-      "fingerprint": "54a768659c20f36842d3dfe013adc0ffc5e0afe04a93ed147a0ed51b3d8dff40",
+      "fingerprint": "779a4147e15a8684e9b74b6d93d48f9ca47e513d1885525d03850c85ee156a48",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "pipechina-careers": {
       "fingerprint": "8ab2acf3a2f6272bffdf8fdc4f1864471a0c8f9da2884d4fd296efc4c1873c2b",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "shandong-energy-careers": {
       "fingerprint": "0c97fc2cdb4477d4662f445d73521db26e646da1644415580f1704dd5c5334a8",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "shccig-careers": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='webhr.shccig.com', port=443): Max retries exceeded with url: /webhrN2-zp/home (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='webhr.shccig.com', port=443): Max retries exceeded with url: /webhrN2-zp/home (Caused by ConnectTimeoutError(<HTTPSConnection(host='webhr.shccig.com', port=443) at 0x7fe1201eda00>, 'Connection to webhr.shccig.com timed out. (connect timeout=10)'))"
     },
     "jinneng-notices": {
       "fingerprint": "630eaf3098d97b0f6837f42f9464329550a5e93734635453e66ac7f668ddd2d1",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "shanxi-coking-notices": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
+      "failureCount": 4,
       "error": "404 Client Error:  for url: https://www.sxcc.com.cn/tzgg/"
     },
     "huaihe-energy-home": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='www.hhnyjt.com', port=443): Max retries exceeded with url: / (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='www.hhnyjt.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.hhnyjt.com', port=443): Failed to resolve 'www.hhnyjt.com' ([Errno -2] Name or service not known)\"))"
     },
     "jizhong-energy-home": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='www.jznyjt.com', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.jznyjt.com', port=443): Read timed out. (read timeout=10)\"))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='www.jznyjt.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)')))"
     },
     "kailuan-home": {
-      "fingerprint": "389a7b62ac4144efee5beba1ac66924f95332c051806b5e95801e28cea257acb",
+      "fingerprint": "43070ec74a1b57680749ec139ad4d327bdc42ab57562ed35acd60f6cf466f46b",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "henan-energy-home": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
+      "failureCount": 4,
       "error": "418 Client Error:  for url: https://www.hnecgc.com.cn/"
     },
     "longmay-home": {
-      "fingerprint": "697cfcfe33928377fdf13b0f7a50e653881269ff197950c04ee3b5b942f13bf3",
+      "fingerprint": "b5a63a6e67b428fd3d8d450fc3b4176da1ac78abfeb287fcb7ad31c530acdd80",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "shandong-gold-home": {
       "fingerprint": "1775eeed4395d0221648a34f90757b7f113b74d6c6890eb3fe43ce946d28b25b",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "jiangxi-copper-home": {
       "fingerprint": "1e2226f3de3bbb8851c1e1919782eb8f113a318c1f901a9175e927c19a89d682",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "yunnan-tin-home": {
-      "fingerprint": "46c8562cba3ad3693e0cefca0682fa8f4b22b2f70de80328511ca698a0094fda",
+      "fingerprint": "bffd869bb6abcd20558556df48500a7375eb6f7ede37aa16cb1976e2a262c1a5",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "baogang-home": {
       "fingerprint": "88797a914eda7f20b2e82f154daf2132ae9ff4f91d3712114a9d1635d15d2b6e",
-      "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "status": "failed",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 0,
-      "error": null
+      "failureCount": 1,
+      "error": "HTTPSConnectionPool(host='www.btsteel.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.btsteel.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "northern-rare-earth-home": {
       "fingerprint": "759c74d8683261ce12a89c88dd97b50e589ecb0568171eff410f68978374d50e",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "ansteel-home": {
       "fingerprint": "b1edf8c5a826e30be3856771392e8c7dabd28dc37b98374767ad14c69d7251c7",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "shougang-home": {
       "fingerprint": "b20eb19984b19307416bd4fd19d856afcb6beb2b00feeff3c86611d4ea41297b",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "hbisco-home": {
-      "fingerprint": "48b87eefdfadcf01d268934aafcdbb76275258c718cec6043987236cb3f4c15a",
+      "fingerprint": "7741d82803267490393d1ba228cf9df867e0a5886cec01b5a6e84f88f62d4b82",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "jiugang-home": {
       "fingerprint": "9d85dd4b70fdb6ba28e501fea76fc92272c17cea9110d55165331ca59c47a2b3",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "zhaojin-home": {
       "fingerprint": "e8cb110b58879c2e6f622911d88a3454fa25b5a93b32a8356e98f9c9064382a1",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "powerchina-careers": {
       "fingerprint": "c03f4bcbc902a937102f6ecd1278b3c2674d500bb647ec4b1efa3f20334f40c7",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "energy-china-careers": {
       "fingerprint": "141dd8f065ff504d81ce0b5854fa44ed530addc06bf1751d976c2655d681daa4",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "crec-careers": {
       "fingerprint": "37c14add9651e92335ba92627ecded8e80233478bd45e279bdfcff6742da74e8",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "crcc-careers": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='crcc.hotjob.cn', port=443): Max retries exceeded with url: / (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='crcc.hotjob.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='crcc.hotjob.cn', port=443): Failed to resolve 'crcc.hotjob.cn' ([Errno -2] Name or service not known)\"))"
     },
     "cccc-careers": {
       "fingerprint": "e05a2c1e35719203d5ee0ac0d605bf8ecfdbede472b9374e06f92c37056ce7cb",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "cscec-careers": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='job.cscec.com', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='job.cscec.com', port=443): Read timed out. (read timeout=10)\"))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='job.cscec.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='job.cscec.com', port=443): Failed to resolve 'job.cscec.com' ([Errno -2] Name or service not known)\"))"
     },
     "china-aneng-home": {
       "fingerprint": "6c3289c19307e8dc84d49591701ca6ee3f58e08d7e6a15bf66b042b2e40d83ac",
-      "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "status": "failed",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 0,
-      "error": null
+      "failureCount": 1,
+      "error": "412 Client Error: Precondition Failed for url: https://www.china-an.cn/"
     },
     "cgs-recruitment": {
-      "fingerprint": "630e3766c5909aa0acc510c822bd5a317ca38b03e9e15cdf532235af504c9a82",
+      "fingerprint": "f4224c11d1a4916103a59f36a621a4a6192c704c071bc261f244fb553688c804",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "sasac-recruitment": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='www.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='www.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.sasac.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "iguopin": {
       "fingerprint": "b69834a85ac03f7396d61452f6f2b7873324ee6ce78ad3a851600fc72f153839",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "ncss": {
       "fingerprint": "0a46fa9d1f194eb09d529cbafbeaa23ebcaab4973ea509d89536f04df94422d7",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "mohrss-central-jobs": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='job.mohrss.gov.cn', port=443): Max retries exceeded with url: /qyzp/index.jhtml (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='job.mohrss.gov.cn', port=443): Read timed out. (read timeout=10)\"))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='job.mohrss.gov.cn', port=443): Max retries exceeded with url: /qyzp/index.jhtml (Caused by NewConnectionError(\"HTTPSConnection(host='job.mohrss.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "sasac-mobile-jobs": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='wap.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='wap.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
     },
     "sasac-iguopin-jobs": {
-      "fingerprint": "59a64e068619809f69e8652627a5c5becce0f673242a70f8d38de51e3e2ec791",
+      "fingerprint": "0f46fa19f0b7198cf1c144350ae593de654069e609184c1ef77df064f61c9bf2",
       "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
-      "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
+      "lastSuccessAt": "2026-07-15T20:19:01.991367+08:00",
       "failureCount": 0,
       "error": null
     },
     "shaanxi-sasac-jobs": {
       "fingerprint": "ba710150af57bf5db489f399efd0c68ccf71c461942d3681c0409b8f8c2fa482",
-      "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "status": "failed",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 0,
-      "error": null
+      "failureCount": 1,
+      "error": "HTTPSConnectionPool(host='sxgz.shaanxi.gov.cn', port=443): Max retries exceeded with url: /zfxxgk/fdzdgk/rsxx/zp/ (Caused by NewConnectionError(\"HTTPSConnection(host='sxgz.shaanxi.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "shanxi-sasac-jobs": {
       "fingerprint": "736521c87fd2a2733cc6b6dbb7e0ee2ce5877e968a8147858bf9ca8f230d43c5",
-      "status": "success",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "status": "failed",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 0,
-      "error": null
+      "failureCount": 1,
+      "error": "HTTPSConnectionPool(host='gzw.shanxi.gov.cn', port=443): Max retries exceeded with url: /xwfb/gqzp/index.shtml (Caused by NewConnectionError(\"HTTPSConnection(host='gzw.shanxi.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     "anhui-sasac-jobs": {
       "fingerprint": "",
       "status": "restricted",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
+      "failureCount": 4,
       "error": "403 Client Error: Forbidden for url: https://gzw.ah.gov.cn/ssqy/qyzp/index.html"
     },
     "hebei-sasac-jobs": {
       "fingerprint": "",
       "status": "failed",
-      "lastCheckedAt": "2026-07-14T22:27:41.377901+08:00",
+      "lastCheckedAt": "2026-07-15T20:19:01.991367+08:00",
       "lastSuccessAt": null,
-      "failureCount": 3,
-      "error": "HTTPSConnectionPool(host='hbsa.hebei.gov.cn', port=443): Max retries exceeded with url: /TZGG197/index.html (Caused by ResponseError('too many 502 error responses'))"
+      "failureCount": 4,
+      "error": "HTTPSConnectionPool(host='hbsa.hebei.gov.cn', port=443): Max retries exceeded with url: /TZGG197/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='hbsa.hebei.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
   }
 }
