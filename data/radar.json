@@ -1,68 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T20:01:34.837423+08:00",
-  "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+  "generatedAt": "2026-07-20T21:09:35.724857+08:00",
+  "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
   "jobs": [
-    {
-      "id": "vastrock-2027-summer",
-      "company": "广岩国际投资有限责任公司",
-      "parent": "中国五矿、金川集团、中核集团等共同出资",
-      "batch": "2027届暑期实习生",
-      "publishedAt": "2026-07-13",
-      "deadline": "2026-07-20T12:00:00+08:00",
-      "deadlineLabel": "7月20日 12:00",
-      "roles": [
-        "业务类",
-        "研究类"
-      ],
-      "education": "2027届硕士、博士研究生",
-      "majors": "地质、矿产、冶金、材料、能源、环境等相关专业",
-      "locations": [
-        "北京·西二环"
-      ],
-      "priority": "重点冲",
-      "match": "完全匹配",
-      "sector": "矿业投资",
-      "conditions": [
-        "面向重点目标院校（系）",
-        "党员、预备党员或符合公告条件的入党积极分子",
-        "英语或小语种可作为工作语言",
-        "每周实习不少于3天，累计不少于2个月"
-      ],
-      "assessment": "专业原文明确包含“地质”，地质学硕士在专业层面完全匹配；院校、政治面貌和语言条件仍需逐项核对。优秀实习生可优先录用或直通校招复试。",
-      "officialUrl": "https://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/showZwxx?zpxxid=558845216",
-      "mirrorUrls": [
-        "https://www.ncss.cn/student/jobs/XYbfJkXUj61zPC5biR3zPe/detail.html",
-        "https://cujiuye.iguopin.com/job/detail?id=208522992576103181"
-      ],
-      "sourceType": "权威就业平台",
-      "sourceTrust": "authoritative",
-      "sourceIds": [
-        "seed-vastrock",
-        "sasac-iguopin-jobs"
-      ],
-      "firstSeenAt": "2026-07-14T19:00:00+08:00",
-      "lastConfirmedAt": "2026-07-19T20:01:34.837423+08:00",
-      "status": "可投",
-      "evidence": "地质",
-      "ruleId": "major.manual_verified",
-      "changeSummary": "条件或来源已更新",
-      "registryScope": "base",
-      "employerType": "基础名册单位",
-      "majorCategory": "consult",
-      "verificationStatus": "authoritative",
-      "sourceEvidence": [
-        {
-          "sourceId": "sasac-iguopin-jobs",
-          "name": "国资央企招聘平台",
-          "url": "https://cujiuye.iguopin.com/job/detail?id=208522992576103181",
-          "tier": "l2",
-          "trust": "authoritative",
-          "discoveredAt": "2026-07-14T22:27:41.377901+08:00"
-        }
-      ],
-      "fallbackUsed": true
-    },
     {
       "id": "sty-2027-campus",
       "company": "中铁上海设计院集团有限公司",
@@ -142,7 +82,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-07-14T22:20:48.426185+08:00",
-      "lastConfirmedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastConfirmedAt": "2026-07-20T21:09:35.724857+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -158,7 +98,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=207331426897625869",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-07-19T20:01:34.837423+08:00"
+          "discoveredAt": "2026-07-20T21:09:35.724857+08:00"
         }
       ],
       "fallbackUsed": true
@@ -205,7 +145,7 @@
         "crec-careers"
       ],
       "firstSeenAt": "2026-07-14T19:00:00+08:00",
-      "lastConfirmedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastConfirmedAt": "2026-07-20T21:09:35.724857+08:00",
       "status": "可投",
       "evidence": "地质工程、工程地质、物探",
       "ruleId": "major.engineering_only",
@@ -218,7 +158,68 @@
       "fallbackUsed": false
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "id": "vastrock-2027-summer",
+      "company": "广岩国际投资有限责任公司",
+      "parent": "中国五矿、金川集团、中核集团等共同出资",
+      "batch": "2027届暑期实习生",
+      "publishedAt": "2026-07-13",
+      "deadline": "2026-07-20T12:00:00+08:00",
+      "deadlineLabel": "7月20日 12:00",
+      "roles": [
+        "业务类",
+        "研究类"
+      ],
+      "education": "2027届硕士、博士研究生",
+      "majors": "地质、矿产、冶金、材料、能源、环境等相关专业",
+      "locations": [
+        "北京·西二环"
+      ],
+      "priority": "重点冲",
+      "match": "完全匹配",
+      "sector": "矿业投资",
+      "conditions": [
+        "面向重点目标院校（系）",
+        "党员、预备党员或符合公告条件的入党积极分子",
+        "英语或小语种可作为工作语言",
+        "每周实习不少于3天，累计不少于2个月"
+      ],
+      "assessment": "专业原文明确包含“地质”，地质学硕士在专业层面完全匹配；院校、政治面貌和语言条件仍需逐项核对。优秀实习生可优先录用或直通校招复试。",
+      "officialUrl": "https://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/showZwxx?zpxxid=558845216",
+      "mirrorUrls": [
+        "https://www.ncss.cn/student/jobs/XYbfJkXUj61zPC5biR3zPe/detail.html",
+        "https://cujiuye.iguopin.com/job/detail?id=208522992576103181"
+      ],
+      "sourceType": "权威就业平台",
+      "sourceTrust": "authoritative",
+      "sourceIds": [
+        "seed-vastrock",
+        "sasac-iguopin-jobs"
+      ],
+      "firstSeenAt": "2026-07-14T19:00:00+08:00",
+      "lastConfirmedAt": "2026-07-20T21:09:35.724857+08:00",
+      "status": "已截止",
+      "evidence": "地质",
+      "ruleId": "major.manual_verified",
+      "changeSummary": "条件或来源已更新",
+      "registryScope": "base",
+      "employerType": "基础名册单位",
+      "majorCategory": "consult",
+      "verificationStatus": "authoritative",
+      "sourceEvidence": [
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=208522992576103181",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-07-14T22:27:41.377901+08:00"
+        }
+      ],
+      "fallbackUsed": true
+    }
+  ],
   "sources": [
     {
       "sourceId": "cnpc-careers",
@@ -228,9 +229,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "412 Client Error: Precondition Failed for url: https://zhaopin.cnpc.com.cn/"
     },
@@ -242,8 +243,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -256,8 +257,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -270,8 +271,8 @@
       "tier": "l2",
       "role": "fallback",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -284,8 +285,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -298,8 +299,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -312,8 +313,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -326,9 +327,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 5,
+      "failureCount": 6,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.ccgc.cn', port=443): Max retries exceeded with url: /?mod=zhaopin&tid=129 (Caused by NewConnectionError(\"HTTPSConnection(host='www.ccgc.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -340,9 +341,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='kczy.ccgc.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='kczy.ccgc.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -354,8 +355,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -368,9 +369,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.zykyj.com', port=443): Max retries exceeded with url: /zykyj/879977/938535/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.zykyj.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -382,8 +383,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -396,11 +397,11 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
-      "error": "HTTPSConnectionPool(host='www.hgdyy.com.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hgdyy.com.cn', port=443) at 0x7fcfe80c6720>, 'Connection to www.hgdyy.com.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.hgdyy.com.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hgdyy.com.cn', port=443) at 0x7f55f45653a0>, 'Connection to www.hgdyy.com.cn timed out. (connect timeout=10)'))"
     },
     {
       "sourceId": "ccgmb-zhejiang",
@@ -410,8 +411,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -424,8 +425,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -438,9 +439,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.zhhny.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zhhny.com'. (_ssl.c:1010)\")))"
     },
@@ -452,8 +453,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -466,8 +467,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -480,8 +481,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -494,8 +495,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -508,8 +509,8 @@
       "tier": "l2",
       "role": "fallback",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -522,9 +523,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "restricted",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "公开抓取受限"
     },
@@ -536,10 +537,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -550,8 +551,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -564,8 +565,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -578,11 +579,11 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
-      "error": "404 Client Error:  for url: https://webhr.shccig.com/webhrN2-zp/home"
+      "error": "HTTPSConnectionPool(host='webhr.shccig.com', port=443): Max retries exceeded with url: /webhrN2-zp/home (Caused by ConnectTimeoutError(<HTTPSConnection(host='webhr.shccig.com', port=443) at 0x7f55f4092210>, 'Connection to webhr.shccig.com timed out. (connect timeout=10)'))"
     },
     {
       "sourceId": "jinneng-notices",
@@ -592,8 +593,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -606,9 +607,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "404 Client Error:  for url: https://www.sxcc.com.cn/tzgg/"
     },
@@ -620,9 +621,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.hhnyjt.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.hhnyjt.com', port=443): Failed to resolve 'www.hhnyjt.com' ([Errno -2] Name or service not known)\"))"
     },
@@ -634,9 +635,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.jznyjt.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)')))"
     },
@@ -648,10 +649,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -662,9 +663,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "418 Client Error:  for url: https://www.hnecgc.com.cn/"
     },
@@ -675,12 +676,12 @@
       "trust": "official",
       "tier": "l1",
       "role": "primary",
-      "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-18T19:55:22.009943+08:00",
-      "failureCount": 1,
-      "changed": false,
-      "error": "HTTPSConnectionPool(host='www.longmay.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.longmay.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "status": "success",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
+      "failureCount": 0,
+      "changed": true,
+      "error": null
     },
     {
       "sourceId": "shandong-gold-home",
@@ -690,10 +691,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": true,
+      "changed": false,
       "error": null
     },
     {
@@ -704,8 +705,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -718,8 +719,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -732,9 +733,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 5,
+      "failureCount": 6,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.btsteel.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.btsteel.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -745,12 +746,12 @@
       "trust": "official",
       "tier": "l1",
       "role": "primary",
-      "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-18T19:55:22.009943+08:00",
-      "failureCount": 1,
+      "status": "success",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
+      "failureCount": 0,
       "changed": false,
-      "error": "HTTPSConnectionPool(host='www.reht.com', port=443): Max retries exceeded with url: /index (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.reht.com', port=443): Read timed out. (read timeout=30)\"))"
+      "error": null
     },
     {
       "sourceId": "ansteel-home",
@@ -760,8 +761,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -774,10 +775,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -788,10 +789,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -802,10 +803,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -816,8 +817,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -830,9 +831,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": "2026-07-18T19:55:22.009943+08:00",
-      "failureCount": 1,
+      "failureCount": 2,
       "changed": false,
       "error": "404 Client Error: Not Found for url: https://www.powerchina.cn/col/col7436/index.html"
     },
@@ -844,8 +845,8 @@
       "tier": "l2",
       "role": "fallback",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -858,8 +859,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -872,9 +873,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='crcc.hotjob.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='crcc.hotjob.cn', port=443): Failed to resolve 'crcc.hotjob.cn' ([Errno -2] Name or service not known)\"))"
     },
@@ -886,8 +887,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -900,9 +901,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='job.cscec.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='job.cscec.com', port=443): Failed to resolve 'job.cscec.com' ([Errno -2] Name or service not known)\"))"
     },
@@ -914,9 +915,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 5,
+      "failureCount": 6,
       "changed": false,
       "error": "412 Client Error: Precondition Failed for url: https://www.china-an.cn/"
     },
@@ -928,8 +929,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -942,9 +943,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.sasac.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -956,8 +957,8 @@
       "tier": "l2",
       "role": "discovery",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -970,8 +971,8 @@
       "tier": "l2",
       "role": "discovery",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -984,9 +985,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='job.mohrss.gov.cn', port=443): Max retries exceeded with url: /qyzp/index.jhtml (Caused by NewConnectionError(\"HTTPSConnection(host='job.mohrss.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -998,9 +999,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='wap.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
     },
@@ -1012,10 +1013,10 @@
       "tier": "l2",
       "role": "discovery",
       "status": "success",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
-      "lastSuccessAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
+      "lastSuccessAt": "2026-07-20T21:09:35.724857+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -1026,9 +1027,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 5,
+      "failureCount": 6,
       "changed": false,
       "error": "HTTPSConnectionPool(host='sxgz.shaanxi.gov.cn', port=443): Max retries exceeded with url: /zfxxgk/fdzdgk/rsxx/zp/ (Caused by NewConnectionError(\"HTTPSConnection(host='sxgz.shaanxi.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -1040,9 +1041,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 5,
+      "failureCount": 6,
       "changed": false,
       "error": "HTTPSConnectionPool(host='gzw.shanxi.gov.cn', port=443): Max retries exceeded with url: /xwfb/gqzp/index.shtml (Caused by NewConnectionError(\"HTTPSConnection(host='gzw.shanxi.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -1054,9 +1055,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "restricted",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "403 Client Error: Forbidden for url: https://gzw.ah.gov.cn/ssqy/qyzp/index.html"
     },
@@ -1068,9 +1069,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-07-19T20:01:34.837423+08:00",
+      "lastCheckedAt": "2026-07-20T21:09:35.724857+08:00",
       "lastSuccessAt": null,
-      "failureCount": 8,
+      "failureCount": 9,
       "changed": false,
       "error": "HTTPSConnectionPool(host='hbsa.hebei.gov.cn', port=443): Max retries exceeded with url: /TZGG197/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='hbsa.hebei.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
@@ -1083,16 +1084,16 @@
     "totalSources": 61,
     "checkedSources": 61,
     "unitHealth": {
-      "primary": 220,
-      "fallback": 129,
+      "primary": 233,
+      "fallback": 116,
       "leads": 0,
       "unavailable": 0
     }
   },
   "summary": {
-    "active": 4,
-    "nearDeadline": 1,
-    "exactMatch": 1,
+    "active": 3,
+    "nearDeadline": 0,
+    "exactMatch": 0,
     "newToday": 0
   }
 }
