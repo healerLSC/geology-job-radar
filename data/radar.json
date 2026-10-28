@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T00:16:54.105682+08:00",
-  "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+  "generatedAt": "2026-10-29T01:02:51.950399+08:00",
+  "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
   "jobs": [
     {
       "id": "sty-2027-campus",
@@ -54,13 +54,13 @@
       "fallbackUsed": false
     },
     {
-      "id": "78e5ee1297d54f26",
+      "id": "dcc98d84ab43141c",
       "company": "中国东方电气集团有限公司",
       "parent": "其他企业",
       "batch": "2027届校园招聘",
-      "publishedAt": "2026-10-13",
-      "deadline": "2026-10-28T23:59:00+08:00",
-      "deadlineLabel": "2026-10-28",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-11-14T23:59:00+08:00",
+      "deadlineLabel": "2026-11-14",
       "roles": [
         "岩土工程设计师"
       ],
@@ -81,12 +81,12 @@
       "sourceIds": [
         "sasac-iguopin-jobs"
       ],
-      "firstSeenAt": "2026-10-14T02:03:20.185498+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "firstSeenAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质学",
       "ruleId": "major.exact",
-      "changeSummary": "条件或来源已更新",
+      "changeSummary": "首次发现",
       "registryScope": "discovered",
       "employerType": "其他企业",
       "majorCategory": "geology",
@@ -98,7 +98,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=217482546198349081",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-27T01:11:00.787032+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -132,7 +132,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-10-09T01:47:09.665323+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质学",
       "ruleId": "major.exact",
@@ -184,7 +184,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-10-09T01:47:09.665323+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质学",
       "ruleId": "major.exact",
@@ -200,7 +200,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=221537591269262813",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         },
         {
           "sourceId": "sasac-iguopin-jobs",
@@ -208,7 +208,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=221941413154129405",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -244,7 +244,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-23T23:21:51.696908+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -302,7 +302,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-16T23:21:33.208759+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地球化学",
       "ruleId": "major.exact",
@@ -354,7 +354,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-16T23:21:33.208759+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -412,7 +412,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-16T23:21:33.208759+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -428,7 +428,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=218389985798127800",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -462,7 +462,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-15T23:29:12.004970+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -513,7 +513,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-15T23:29:12.004970+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -529,7 +529,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=218375919981559914",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -563,7 +563,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-15T23:29:12.004970+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质学",
       "ruleId": "major.exact",
@@ -579,7 +579,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=218383514221936785",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -613,7 +613,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-15T23:29:12.004970+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "0709",
       "ruleId": "major.exact",
@@ -663,7 +663,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-15T23:29:12.004970+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -713,7 +713,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-10T22:55:34.282478+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质学",
       "ruleId": "major.exact",
@@ -763,7 +763,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-08T23:00:09.744312+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -817,7 +817,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-08T00:19:40.301015+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -867,7 +867,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-04T22:52:17.579702+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质学",
       "ruleId": "major.exact",
@@ -883,7 +883,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=216740996086497289",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -911,7 +911,8 @@
       "assessment": "命中“地质类”；按规则 major.related 判定。",
       "officialUrl": "https://cujiuye.iguopin.com/job/detail?id=215134964469990757",
       "mirrorUrls": [
-        "https://cujiuye.iguopin.com/job/detail?id=215134966516811109"
+        "https://cujiuye.iguopin.com/job/detail?id=215134966516811109",
+        "https://cujiuye.iguopin.com/job/detail?id=215134969184388453"
       ],
       "sourceType": "国资央企权威平台",
       "sourceTrust": "authoritative",
@@ -919,7 +920,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-24T19:32:46.921136+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -935,7 +936,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=215134964469990757",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         },
         {
           "sourceId": "sasac-iguopin-jobs",
@@ -943,7 +944,15 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=215134966516811109",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
+        },
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=215134969184388453",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -981,7 +990,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-01T01:56:51.701391+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程等相关专业",
       "ruleId": "major.related",
@@ -1055,7 +1064,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-25T19:32:06.357634+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -1105,7 +1114,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-25T19:32:06.357634+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质类",
       "ruleId": "major.related",
@@ -1122,6 +1131,84 @@
           "tier": "l2",
           "trust": "authoritative",
           "discoveredAt": "2026-10-14T23:44:49.970517+08:00"
+        }
+      ],
+      "fallbackUsed": true
+    },
+    {
+      "id": "c2a3a9f7b66597ab",
+      "company": "青海中煤地质工程有限责任公司",
+      "parent": "其他企业",
+      "batch": "2027届校园招聘",
+      "publishedAt": "2026-10-28",
+      "deadline": "2026-12-31T23:59:00+08:00",
+      "deadlineLabel": "2026-12-31",
+      "roles": [
+        "地环技术部技术岗"
+      ],
+      "education": "本科",
+      "majors": "地质资源与地质工程类",
+      "locations": [
+        "西宁-城西区"
+      ],
+      "priority": "专业匹配较弱",
+      "match": "工程类限定",
+      "sector": "扩展发现",
+      "conditions": [],
+      "assessment": "命中“地质工程”；按规则 major.engineering_only 判定。",
+      "officialUrl": "https://cujiuye.iguopin.com/job/detail?id=224585753684872771",
+      "mirrorUrls": [
+        "https://cujiuye.iguopin.com/job/detail?id=224585754154634819",
+        "https://cujiuye.iguopin.com/job/detail?id=224585756469890627",
+        "https://cujiuye.iguopin.com/job/detail?id=224585758332161603"
+      ],
+      "sourceType": "国资央企权威平台",
+      "sourceTrust": "authoritative",
+      "sourceIds": [
+        "sasac-iguopin-jobs"
+      ],
+      "firstSeenAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
+      "status": "可投",
+      "evidence": "地质工程",
+      "ruleId": "major.engineering_only",
+      "changeSummary": "首次发现",
+      "registryScope": "discovered",
+      "employerType": "其他企业",
+      "majorCategory": "engineering-only",
+      "verificationStatus": "authoritative",
+      "sourceEvidence": [
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=224585753684872771",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
+        },
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=224585754154634819",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
+        },
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=224585756469890627",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
+        },
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=224585758332161603",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -1155,7 +1242,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-10-14T02:03:20.185498+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "采矿工程",
       "ruleId": "major.engineering_only",
@@ -1205,7 +1292,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-20T22:36:49.279093+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地球物理",
       "ruleId": "major.engineering_only",
@@ -1255,7 +1342,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-08T23:00:09.744312+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程",
       "ruleId": "major.engineering_only",
@@ -1305,7 +1392,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-09T23:02:50.899494+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地球物理",
       "ruleId": "major.engineering_only",
@@ -1355,7 +1442,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-26T19:33:40.231980+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程",
       "ruleId": "major.engineering_only",
@@ -1407,7 +1494,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-04T22:52:17.579702+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "采矿工程",
       "ruleId": "major.engineering_only",
@@ -1465,7 +1552,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-04T22:52:17.579702+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "采矿工程",
       "ruleId": "major.engineering_only",
@@ -1515,7 +1602,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-03T22:55:20.893209+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程、采矿工程",
       "ruleId": "major.engineering_only",
@@ -1565,7 +1652,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-01T01:56:51.701391+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程",
       "ruleId": "major.engineering_only",
@@ -1615,7 +1702,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-30T23:15:46.416454+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程",
       "ruleId": "major.engineering_only",
@@ -1665,7 +1752,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-26T19:33:40.231980+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程、勘查技术与工程",
       "ruleId": "major.engineering_only",
@@ -1681,7 +1768,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=215457050426082894",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -1717,7 +1804,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-09-30T00:49:50.836822+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程",
       "ruleId": "major.engineering_only",
@@ -1775,7 +1862,7 @@
         "sasac-iguopin-jobs"
       ],
       "firstSeenAt": "2026-08-05T20:57:01.674281+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "采矿工程",
       "ruleId": "major.engineering_only",
@@ -1791,7 +1878,7 @@
           "url": "https://cujiuye.iguopin.com/job/detail?id=212371971290173019",
           "tier": "l2",
           "trust": "authoritative",
-          "discoveredAt": "2026-10-28T00:16:54.105682+08:00"
+          "discoveredAt": "2026-10-29T01:02:51.950399+08:00"
         }
       ],
       "fallbackUsed": true
@@ -1838,7 +1925,7 @@
         "crec-careers"
       ],
       "firstSeenAt": "2026-07-14T19:00:00+08:00",
-      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastConfirmedAt": "2026-10-29T01:02:51.950399+08:00",
       "status": "可投",
       "evidence": "地质工程、工程地质、物探",
       "ruleId": "major.engineering_only",
@@ -1852,6 +1939,56 @@
     }
   ],
   "history": [
+    {
+      "id": "78e5ee1297d54f26",
+      "company": "中国东方电气集团有限公司",
+      "parent": "其他企业",
+      "batch": "2027届校园招聘",
+      "publishedAt": "2026-10-13",
+      "deadline": "2026-10-28T23:59:00+08:00",
+      "deadlineLabel": "2026-10-28",
+      "roles": [
+        "岩土工程设计师"
+      ],
+      "education": "硕士",
+      "majors": "土木工程类",
+      "locations": [
+        "成都-郫都区"
+      ],
+      "priority": "保底",
+      "match": "完全匹配",
+      "sector": "扩展发现",
+      "conditions": [],
+      "assessment": "命中“地质学”；按规则 major.exact 判定。",
+      "officialUrl": "https://cujiuye.iguopin.com/job/detail?id=217482546198349081",
+      "mirrorUrls": [],
+      "sourceType": "国资央企权威平台",
+      "sourceTrust": "authoritative",
+      "sourceIds": [
+        "sasac-iguopin-jobs"
+      ],
+      "firstSeenAt": "2026-10-14T02:03:20.185498+08:00",
+      "lastConfirmedAt": "2026-10-28T00:16:54.105682+08:00",
+      "status": "已截止",
+      "evidence": "地质学",
+      "ruleId": "major.exact",
+      "changeSummary": "报名截止",
+      "registryScope": "discovered",
+      "employerType": "其他企业",
+      "majorCategory": "geology",
+      "verificationStatus": "authoritative",
+      "sourceEvidence": [
+        {
+          "sourceId": "sasac-iguopin-jobs",
+          "name": "国资央企招聘平台",
+          "url": "https://cujiuye.iguopin.com/job/detail?id=217482546198349081",
+          "tier": "l2",
+          "trust": "authoritative",
+          "discoveredAt": "2026-10-27T01:11:00.787032+08:00"
+        }
+      ],
+      "fallbackUsed": true
+    },
     {
       "id": "50d1f1db9f50182d",
       "company": "中国东方电气集团有限公司",
@@ -2132,9 +2269,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "412 Client Error: Precondition Failed for url: https://zhaopin.cnpc.com.cn/"
     },
@@ -2145,12 +2282,12 @@
       "trust": "official",
       "tier": "l1",
       "role": "primary",
-      "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "status": "failed",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
-      "failureCount": 0,
+      "failureCount": 1,
       "changed": false,
-      "error": null
+      "error": "HTTPSConnectionPool(host='job.sinopec.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
     },
     {
       "sourceId": "cnooc-careers",
@@ -2160,8 +2297,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2174,8 +2311,8 @@
       "tier": "l2",
       "role": "fallback",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2188,8 +2325,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2202,8 +2339,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2215,12 +2352,12 @@
       "trust": "official",
       "tier": "l1",
       "role": "primary",
-      "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-27T01:11:00.787032+08:00",
-      "failureCount": 1,
+      "status": "success",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
+      "failureCount": 0,
       "changed": false,
-      "error": "HTTPSConnectionPool(host='www.chinacoal.com', port=443): Max retries exceeded with url: /col/col37/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.chinacoal.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": null
     },
     {
       "sourceId": "ccgc-careers",
@@ -2230,9 +2367,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 102,
+      "failureCount": 103,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.ccgc.cn', port=443): Max retries exceeded with url: /?mod=zhaopin&tid=129 (Caused by NewConnectionError(\"HTTPSConnection(host='www.ccgc.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2244,9 +2381,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='kczy.ccgc.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='kczy.ccgc.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2258,8 +2395,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2272,9 +2409,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.zykyj.com', port=443): Max retries exceeded with url: /zykyj/879977/938535/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.zykyj.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2286,8 +2423,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2300,11 +2437,11 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
-      "error": "HTTPSConnectionPool(host='www.hgdyy.com.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hgdyy.com.cn', port=443) at 0x7f0054a92960>, 'Connection to www.hgdyy.com.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.hgdyy.com.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hgdyy.com.cn', port=443) at 0x7f1c3582da00>, 'Connection to www.hgdyy.com.cn timed out. (connect timeout=10)'))"
     },
     {
       "sourceId": "ccgmb-zhejiang",
@@ -2314,8 +2451,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2328,8 +2465,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2342,9 +2479,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.zhhny.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.zhhny.com'. (_ssl.c:1010)\")))"
     },
@@ -2356,8 +2493,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2370,8 +2507,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2384,8 +2521,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2398,8 +2535,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2412,8 +2549,8 @@
       "tier": "l2",
       "role": "fallback",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2426,9 +2563,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "restricted",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "公开抓取受限"
     },
@@ -2440,10 +2577,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -2454,8 +2591,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2468,11 +2605,11 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-10-25T22:54:01.705441+08:00",
-      "failureCount": 2,
+      "failureCount": 3,
       "changed": false,
-      "error": "HTTPSConnectionPool(host='zhaopin.shandong-energy.com', port=443): Max retries exceeded with url: /recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='zhaopin.shandong-energy.com', port=443) at 0x7f0054a92db0>, 'Connection to zhaopin.shandong-energy.com timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='zhaopin.shandong-energy.com', port=443): Max retries exceeded with url: /recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='zhaopin.shandong-energy.com', port=443) at 0x7f1c355b5e20>, 'Connection to zhaopin.shandong-energy.com timed out. (connect timeout=10)'))"
     },
     {
       "sourceId": "shccig-careers",
@@ -2482,8 +2619,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2496,8 +2633,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2510,9 +2647,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.sxcc.com.cn', port=443): Max retries exceeded with url: /tzgg/ (Caused by ResponseError('too many 502 error responses'))"
     },
@@ -2524,9 +2661,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.hhnyjt.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.hhnyjt.com', port=443): Failed to resolve 'www.hhnyjt.com' ([Errno -2] Name or service not known)\"))"
     },
@@ -2538,9 +2675,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.jznyjt.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.jznyjt.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2552,9 +2689,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-07-24T20:22:36.365249+08:00",
-      "failureCount": 92,
+      "failureCount": 93,
       "changed": false,
       "error": "未提取到可用正文"
     },
@@ -2566,9 +2703,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "418 Client Error:  for url: https://www.hnecgc.com.cn/"
     },
@@ -2580,8 +2717,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": true,
       "error": null
@@ -2594,10 +2731,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
-      "changed": false,
+      "changed": true,
       "error": null
     },
     {
@@ -2608,8 +2745,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": true,
       "error": null
@@ -2622,8 +2759,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": true,
       "error": null
@@ -2636,9 +2773,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 102,
+      "failureCount": 103,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.btsteel.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.btsteel.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2650,10 +2787,10 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
-      "changed": true,
+      "changed": false,
       "error": null
     },
     {
@@ -2664,8 +2801,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2678,8 +2815,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2692,8 +2829,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": true,
       "error": null
@@ -2706,8 +2843,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": true,
       "error": null
@@ -2720,8 +2857,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2734,8 +2871,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2748,8 +2885,8 @@
       "tier": "l2",
       "role": "fallback",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2762,8 +2899,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2776,9 +2913,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='crcc.hotjob.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='crcc.hotjob.cn', port=443): Failed to resolve 'crcc.hotjob.cn' ([Errno -2] Name or service not known)\"))"
     },
@@ -2790,8 +2927,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2804,9 +2941,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='job.cscec.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='job.cscec.com', port=443): Failed to resolve 'job.cscec.com' ([Errno -2] Name or service not known)\"))"
     },
@@ -2818,9 +2955,9 @@
       "tier": "l1",
       "role": "primary",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 102,
+      "failureCount": 103,
       "changed": false,
       "error": "412 Client Error: Precondition Failed for url: https://www.china-an.cn/"
     },
@@ -2832,8 +2969,8 @@
       "tier": "l1",
       "role": "primary",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2846,9 +2983,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='www.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.sasac.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2860,8 +2997,8 @@
       "tier": "l2",
       "role": "discovery",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2874,8 +3011,8 @@
       "tier": "l2",
       "role": "discovery",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": false,
       "error": null
@@ -2888,9 +3025,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='job.mohrss.gov.cn', port=443): Max retries exceeded with url: /qyzp/index.jhtml (Caused by NewConnectionError(\"HTTPSConnection(host='job.mohrss.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2902,9 +3039,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='wap.sasac.gov.cn', port=443): Max retries exceeded with url: /n2588035/n2588325/n2588350/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
     },
@@ -2916,8 +3053,8 @@
       "tier": "l2",
       "role": "discovery",
       "status": "success",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
-      "lastSuccessAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
+      "lastSuccessAt": "2026-10-29T01:02:51.950399+08:00",
       "failureCount": 0,
       "changed": true,
       "error": null
@@ -2930,9 +3067,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 102,
+      "failureCount": 103,
       "changed": false,
       "error": "HTTPSConnectionPool(host='sxgz.shaanxi.gov.cn', port=443): Max retries exceeded with url: /zfxxgk/fdzdgk/rsxx/zp/ (Caused by NewConnectionError(\"HTTPSConnection(host='sxgz.shaanxi.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2944,9 +3081,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": "2026-07-14T22:27:41.377901+08:00",
-      "failureCount": 102,
+      "failureCount": 103,
       "changed": false,
       "error": "HTTPSConnectionPool(host='gzw.shanxi.gov.cn', port=443): Max retries exceeded with url: /xwfb/gqzp/index.shtml (Caused by NewConnectionError(\"HTTPSConnection(host='gzw.shanxi.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -2958,9 +3095,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "restricted",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "403 Client Error: Forbidden for url: https://gzw.ah.gov.cn/ssqy/qyzp/index.html"
     },
@@ -2972,9 +3109,9 @@
       "tier": "l2",
       "role": "discovery",
       "status": "failed",
-      "lastCheckedAt": "2026-10-28T00:16:54.105682+08:00",
+      "lastCheckedAt": "2026-10-29T01:02:51.950399+08:00",
       "lastSuccessAt": null,
-      "failureCount": 105,
+      "failureCount": 106,
       "changed": false,
       "error": "HTTPSConnectionPool(host='hbsa.hebei.gov.cn', port=443): Max retries exceeded with url: /TZGG197/index.html (Caused by NewConnectionError(\"HTTPSConnection(host='hbsa.hebei.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
@@ -2987,16 +3124,16 @@
     "totalSources": 61,
     "checkedSources": 61,
     "unitHealth": {
-      "primary": 230,
-      "fallback": 119,
+      "primary": 217,
+      "fallback": 132,
       "leads": 0,
       "unavailable": 0
     }
   },
   "summary": {
-    "active": 35,
-    "nearDeadline": 3,
+    "active": 36,
+    "nearDeadline": 2,
     "exactMatch": 8,
-    "newToday": 0
+    "newToday": 2
   }
 }
